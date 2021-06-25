@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-S2
+D ESP32-S2 is a highly-integrated, low-power, 2.4 GHzWi-Fi System-on-Chip (SoC) solution.
+F https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf
+$ENDCMP
+#
+#End Doc Library
