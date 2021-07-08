@@ -9,9 +9,7 @@ D ESP32-C3-MINI-1 is a general-purpose Wi-Fi and Bluetooth LE module. This modul
 $ENDCMP
 #
 $CMP Module_ESP32-C3-WROOM-1
-D ESP32-C3-WROOM-1 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of
-peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health
-care, consumer electronics, etc.
+D ESP32-C3-WROOM-1 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc.
 $ENDCMP
 #
 $CMP Module_ESP32-MINI-1
