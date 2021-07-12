@@ -10,8 +10,6 @@ Each footprint library is stored as a directory with the .pretty suffix. The foo
 
 ## Symbols and Footprints
 
-
-
 ### SoC
 
 The following SoC are included in this library
@@ -45,7 +43,6 @@ The following SoC are included in this library
 | Dev Board    | Symbol       | Footprint   | Resource/Datasheet                                                                                      |
 |:------------:|:------------:|:-----------:|:-------------------------------------------------------------------------------------------------------:|
 |ESP32-S2-Saola-1|Yes|Yes||
-
 
 ### Contributing
 
