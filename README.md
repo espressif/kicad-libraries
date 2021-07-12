@@ -18,17 +18,34 @@ The following SoC are included in this library
 
 | SoC          | Symbol       | Footprint   | Resource/Datasheet                                                                                      |
 |:------------:|:------------:|:-----------:|:-------------------------------------------------------------------------------------------------------:|
+|ESP32|Yes|No||
+|ESP32-C3|Yes|No||
+|ESP32-PICO-V3|Yes|No||
+|ESP32-S2|Yes|No||
+|ESP32-S3|Yes|No||
+|ESP8286|Yes|No||
+|ESP8285|Yes|No||
 
 ### Modules
 
 | Module       | Symbol       | Footprint   | Resource/Datasheet                                                                                      |
 |:------------:|:------------:|:-----------:|:-------------------------------------------------------------------------------------------------------:|
-
+|ESP32-C3-MINI-1|Yes|Yes||
+|ESP32-C3-WROOM-1|Yes|Yes||
+|ESP32-S2-MINI-1|Yes|Yes||
+|ESP32-S2-MINI-1U|Yes|Yes||
+|ESP32-S2-WROOM|Yes|Yes||
+|ESP32-S2-WROVER|Yes|Yes||
+|ESP32-WROOM-32D|Yes|Yes||
+|ESP32-WROOM-32D|Yes|Yes||
+|ESP32-WROVER|Yes|Yes||
 
 ### Developmennt Boards
 
 | Dev Board    | Symbol       | Footprint   | Resource/Datasheet                                                                                      |
 |:------------:|:------------:|:-----------:|:-------------------------------------------------------------------------------------------------------:|
+|ESP32-S2-Saola-1|Yes|Yes||
+
 
 ### Contributing
 
