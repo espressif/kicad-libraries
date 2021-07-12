@@ -75,7 +75,7 @@
   (pad 39 smd rect (at 0.845 -2.595 180) (size 1.05 1.05) (layers F.Cu F.Paste F.Mask))
   (pad 39 smd rect (at -0.68 -2.595 180) (size 1.05 1.05) (layers F.Cu F.Paste F.Mask))
   (pad 39 smd rect (at -2.205 -2.595 180) (size 1.05 1.05) (layers F.Cu F.Paste F.Mask))
-  (model /home/minatel/Documents/espressif/kicad/espressif-kicad-lib/3d/ESP32-WROOM-32E.STEP
+  (model "${ESP_3D}/ESP32-WROOM-32E.STEP"
     (offset (xyz -9.01 -9.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
