@@ -1,5 +1,6 @@
 (footprint "ESP32-C3-MINI-1_Hand-Soldering" (version 20210623) (generator pcbnew) (layer "F.Cu")
-  (tedit 60EC653B)
+  (tedit 60ED58C0)
+  (tags "ESP32-C3")
   (attr smd)
   (fp_text reference "REF**" (at 0 -12.2) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
