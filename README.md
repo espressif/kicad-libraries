@@ -46,7 +46,7 @@ The following SoC are included in this library
 |ESP32-WROOM-32UE  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
 |ESP32-WROVER-E    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf)     |
 
-### Developmennt Boards
+### Development Boards
 
 | Dev Board       | Symbol | Footprint   | Resource                                                                                      |
 |:---------------:|:------:|:-----------:|:---------------------------------------------------------------------------------------------:|
