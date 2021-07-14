@@ -61,6 +61,12 @@ D ESP32-S2 family is a highly-integrated, low-power, 2.4GHz Wi-Fi System-on-Chip
 F https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf
 $ENDCMP
 #
+$CMP SoC_ESP32-S3
+D ESP32-S3 is a low-power MCU-based SoC that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE).
+K ESP32-S3
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf
+$ENDCMP
+#
 $CMP SoC_ESP8266
 D Espressif’s ESP8266EX delivers highly integrated Wi-Fi SoC solution to meet users’ continuous demands for efficient power usage, compact design and reliable performance in the Internet of Things industry.
 F https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
