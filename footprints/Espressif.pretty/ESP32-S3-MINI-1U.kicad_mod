@@ -1,6 +1,6 @@
-(module ESP32-S3-MINI-1U (layer F.Cu) (tedit 60F17121)
+(module ESP32-S3-MINI-1U (layer F.Cu) (tedit 60F1A5FE)
   (descr "ESP32-S3-MINI-1 and ESP32-S3-MINI-1U")
-  (tags ESP32-S3)
+  (tags esp32-s3)
   (attr smd)
   (fp_text reference REF** (at 0 -9.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

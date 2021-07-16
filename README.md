@@ -4,7 +4,7 @@ This repository contains the Symbols, Footprint and 3D Models for the Espressif 
 
 > Notice: The libraries are provided in the hope that they will be useful, but without warranty of any kind.
 
-**The libraries in this repository are intended to be used with KiCad version 6.**
+**The libraries in this repository are intended to be used with KiCad version 5.**
 
 Each footprint library is stored as a directory with the .pretty suffix. The footprint files are .kicad_mod files within.
 
@@ -42,6 +42,10 @@ The following SoC are included in this library
 |ESP32-S2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
 |ESP32-S2-WROOM    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf)    |
 |ESP32-S2-WROVER   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf)  |
+|ESP32-S3-MINI-1   |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
+|ESP32-S3-MINI-1U  |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
+|ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
+|ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
 |ESP32-WROOM-32E   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
 |ESP32-WROOM-32UE  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
 |ESP32-WROVER-E    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf)     |
