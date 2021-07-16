@@ -52,9 +52,11 @@ The following SoC are included in this library
 
 ### Development Boards
 
-| Dev Board       | Symbol | Footprint   | Resource                                                                                      |
-|:---------------:|:------:|:-----------:|:---------------------------------------------------------------------------------------------:|
-|ESP32-S2-Saola-1 |Yes     |Yes          |[Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-SAOLA-1_V1.1_schematics.pdf)       |
+|    Dev Board     | Symbol | Footprint |                           Resource                           |
+| :--------------: | :----: | :-------: | :----------------------------------------------------------: |
+| ESP32-S2-Saola-1 |  Yes   |    Yes    | [Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-SAOLA-1_V1.1_schematics.pdf) |
+|  ESP32-DevKitc   |  Yes   |    Yes    | [Schematic](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf) |
+| ESP32-S3-DevKitc |  Yes   |    Yes    |                                                              |
 
 ### Contributing
 
