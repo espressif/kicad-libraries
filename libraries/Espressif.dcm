@@ -22,6 +22,12 @@ K esp32-c3 module
 F https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-DevKitc
+D Development Kit
+K ESP32
+F https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+$ENDCMP
+#
 $CMP ESP32-PICO-V3
 D The ESP32-PICO-V3 is a System-in-Package (SiP) device that is based on ESP32 with ECO V3 wafer, providingcomplete Wi-Fi and Bluetooth®functionalities. It integrates a 4 MB SPI flash.
 F https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
@@ -56,6 +62,11 @@ $CMP ESP32-S3
 D ESP32-S3 is a low-power MCU-based SoC that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE).
 K ESP32-S3
 F https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-S3-DevKitc
+D Development Kit
+K ESP32-S3
 $ENDCMP
 #
 $CMP ESP32-S3-MINI-1
