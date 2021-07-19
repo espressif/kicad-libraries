@@ -12,10 +12,14 @@ $ENDCMP
 #
 $CMP ESP32-C3-MINI-1
 D ESP32-C3-MINI-1 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and a small size, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc
+K esp32-c3
+F https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
 $ENDCMP
 #
 $CMP ESP32-C3-WROOM-02
 D ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc.
+K esp32-c3 module
+F https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
 $ENDCMP
 #
 $CMP ESP32-PICO-V3
@@ -55,11 +59,13 @@ F https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet
 $ENDCMP
 #
 $CMP ESP32-S3-MINI-1
-F https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
+D ESP32-S3-MINI-1 Module
+K esp32-s3
 $ENDCMP
 #
-$CMP ESP32-S3-WROVER
-F https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
+$CMP ESP32-S3-WROOM-1
+D ESP32-S3-WROOM-1 Module
+K esp32-s3
 $ENDCMP
 #
 $CMP ESP32-WROOM-E
