@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP ESP32
 D ESP32 is a single 2.4 GHz Wi-Fi-and-Bluetooth combo chip designed with the TSMC ultra-low-power 40 nmtechnology.
+K esp32 soc wifi bluetooth ethernet
 F https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 $ENDCMP
 #
