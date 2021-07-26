@@ -40,6 +40,7 @@ The following SoC are included in this library
 |ESP32-C3-WROOM-02 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)                  |
 |ESP32-S2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
 |ESP32-S2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
+|ESP32-S2-SOLO     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf)      |
 |ESP32-S2-WROOM    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf)    |
 |ESP32-S2-WROVER   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf)  |
 |ESP32-S3-MINI-1   |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
@@ -52,11 +53,11 @@ The following SoC are included in this library
 
 ### Development Boards
 
-|    Dev Board     | Symbol | Footprint |                           Resource                           |
-| :--------------: | :----: | :-------: | :----------------------------------------------------------: |
+| Dev Board        | Symbol | Footprint | Resource                                                                                 |
+|:----------------:|:------:|:---------:|:----------------------------------------------------------------------------------------:|
 | ESP32-S2-Saola-1 |  Yes   |    Yes    | [Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-SAOLA-1_V1.1_schematics.pdf) |
-|  ESP32-DevKitc   |  Yes   |    Yes    | [Schematic](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf) |
-| ESP32-S3-DevKitc |  Yes   |    Yes    |                                                              |
+| ESP32-DevKitC    |  Yes   |    Yes    | [Schematic](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf)             |
+| ESP32-S3-DevKitC |  Yes   |    Yes    |                                                                                          |
 
 ### Contributing
 
