@@ -45,6 +45,12 @@ K ESP32-S2
 F https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-S2-SOLO
+D ESP32-S2-SOLO and ESP32-S2-SOLO-U are two powerful, generic Wi-Fi MCU modules that have a rich set of peripherals.
+K esp32-s2 solo
+F https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
+$ENDCMP
+#
 $CMP ESP32-S2-Saola-1
 D Development Kit
 K ESP32-S2
