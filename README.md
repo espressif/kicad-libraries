@@ -1,8 +1,11 @@
 # Espressif KiCad Library
 
-This repository contains the Symbols, Footprint and 3D Models for the Espressif SoC and Modules family.
+This repository contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.
 
-> Notice: The libraries are provided in the hope that they will be useful, but without warranty of any kind.
+
+![Library Downloads](https://img.shields.io/github/downloads/espressif/kicad-libraries/total?style=flat-square)
+
+> Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
 **The libraries in this repository are intended to be used with KiCad version 5.**
 
@@ -55,7 +58,17 @@ The following SoC are included in this library
 
 ### Contributing
 
-If you have a new contribution you think we'd like, please consider sending it to us as a Pull Request.
+If you have any contribution you think we'd like, please consider sending us a Pull Request (PR).
+
+### 3D Models
+
+Espressif provides some 3D models to help you on your project inside the ``3d`` folder.
+To use the files, you need to create a environment variable add the ``3d`` folder path.
+
+* Open ``Open Preferences`` -> ``Configure Paths...``
+* Create the new variable:
+    * Name: ``ESPRESSIF_3DMODELS``
+    * Path: ``<PATH_TO_THE_3D_FOLDER>``
 
 ### About KiCad
 
