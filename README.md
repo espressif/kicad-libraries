@@ -7,7 +7,7 @@ This repository contains the Symbols, Footprint, and 3D Models for the Espressif
 
 > Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
-**The libraries in this repository are intended to be used with KiCad version 5.**
+**The libraries in this repository are intended to be used with KiCad version 6.**
 
 Each footprint library is stored as a directory with the .pretty suffix. The footprint files are .kicad_mod files within.
 
@@ -64,12 +64,12 @@ The following SoC are included in this library
 
 ### Contributing
 
-If you have any contribution you think we'd like, please consider sending us a Pull Request (PR).
+If you want to contribute, please consider sending us a Pull Request (PR).
 
 ### 3D Models
 
-Espressif provides some 3D models to help you on your project inside the ``3d`` folder.
-To use the files, you need to create a environment variable add the ``3d`` folder path.
+Espressif provides some 3D models to help you with your project inside the ``3d`` folder.
+To use the files, you need to create an environment variable add the ``3d`` folder path.
 
 * Open ``Open Preferences`` -> ``Configure Paths...``
 * Create the new variable:
@@ -78,4 +78,4 @@ To use the files, you need to create a environment variable add the ``3d`` folde
 
 ### About KiCad
 
-KiCad is a Cross Platform and Open Source Electronics Design Automation Suite. See [KiCad EDA](https://kicad.org/) for more information.
+KiCad is a Cross-Platform and Open Source Electronics Design Automation Suite. See [KiCad EDA](https://kicad.org/) for more information.
