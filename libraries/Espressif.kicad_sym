@@ -1350,7 +1350,7 @@
     (property "Footprint" "Espressif:ESP32-S2-DevKitM" (id 2) (at 0 -49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://dl.espressif.com/dl/schematics/ESP32-S2-DevKitM-1_V1_Schematics.pdf" (id 3) (at 6.35 -2.54 0)
+    (property "Datasheet" "https://dl.espressif.com/dl/schematics/ESP32-S2-DevKitM-1_V1_Schematics.pdf" (id 3) (at 0 -52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "esp32-s2 mini" (id 4) (at 0 0 0)
