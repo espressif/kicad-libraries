@@ -3423,7 +3423,7 @@
     (property "ki_keywords" "ESP32" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "2.4 GHz WiFi + Bluetooth ® + Bluetooth LE module Built around ESP32 series of SoCs, Xtensa® dualcore 32bit LX6 microprocessor 4/8/16 MB flash available 26 GPIOs, rich set of peripherals Onboard PCB antenna or external antenna connector" (id 5) (at 0 0 0)
+    (property "ki_description" "ESP32-WROOM-32E integrates ESP32-D0WD-V3, with higher stability and safety performance." (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ESP32-WROOM-E_0_1"
