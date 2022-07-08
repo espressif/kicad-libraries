@@ -4,7 +4,7 @@
   (descr "ESP32-PICO-MINI-02U: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf")
   (tags "ESP32-PICO-MINI-02U")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -7.75) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -6.5) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp baa08606-faaa-40a4-8243-f2559d90760d)
   )
