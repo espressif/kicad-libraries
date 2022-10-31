@@ -409,7 +409,75 @@
     )
     (symbol "ESP32-C3-MINI-1_0_0"
       (text "ESP32-C3-MINI-1" (at 0 -25.4 0)
-        (effects (font (size 2.54 2.54)))
+        (effects (font (size 2 2)))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "37" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "38" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "39" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "40" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "41" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "42" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "43" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "44" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "45" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "46" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "47" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "48" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "49" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "50" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "51" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "52" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "53" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "ESP32-C3-MINI-1_0_1"
@@ -427,7 +495,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -439,7 +507,7 @@
         (name "GPIO1/ADC1_CH1/XTAL_32K_N" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -463,7 +531,7 @@
         (name "GPIO5/ADC2_CH0" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -535,7 +603,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 27.94 -27.94 180) (length 2.54) hide
+      (pin power_in line (at 27.94 -27.94 180) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -1071,11 +1139,11 @@
         (name "GPIO21" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at 38.1 24.13 180) (length 2.54)
+      (pin bidirectional line (at 38.1 25.4 180) (length 2.54)
         (name "U0RXD/GPIO3" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at 38.1 26.67 180) (length 2.54)
+      (pin bidirectional line (at 38.1 27.94 180) (length 2.54)
         (name "U0TXD/GPIO1" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -1131,6 +1199,74 @@
     (symbol "ESP32-PICO-MINI-02_0_0"
       (text "ESP32-PICO-MINI-02" (at 0 3.81 0)
         (effects (font (size 2.54 2.54)))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "37" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "38" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "39" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "40" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "41" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "42" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "43" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "44" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "45" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "46" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "47" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "48" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "49" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "50" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "51" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "52" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 38.1 -35.56 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "53" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "ESP32-PICO-MINI-02_0_1"
@@ -2005,6 +2141,82 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "47" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "48" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "49" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "50" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "51" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "52" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "53" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "54" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "55" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "56" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "57" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "58" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "59" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "60" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "61" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "62" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "63" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "64" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -35.56 -35.56 0) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "65" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "ESP32-S2-MINI-1_1_1"
       (rectangle (start -33.02 45.72) (end 33.02 -38.1)
@@ -2605,8 +2817,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (text "ESP32-S2-WROOM" (at 0 -25.4 0)
-        (effects (font (size 2.54 2.54)))
+      (text "ESP32-S2-WROOM (NRND)" (at 0 -25.4 0)
+        (effects (font (size 2 2)))
       )
       (pin power_in line (at -35.56 -35.56 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -2799,8 +3011,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (text "ESP32-S2-WROVER" (at 0 -25.4 0)
-        (effects (font (size 2.54 2.54)))
+      (text "ESP32-S2-WROVER (NRND)" (at 0 -25.4 0)
+        (effects (font (size 2 2)))
       )
       (pin power_in line (at -35.56 -35.56 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -3625,13 +3837,89 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "47" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "48" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "49" (effects (font (size 1.27 1.27))))
+      )
       (pin bidirectional line (at -58.42 22.86 0) (length 2.54)
         (name "GPIO1/TOUCH1/ADC1_CH0" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "50" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "51" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "52" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "53" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "54" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "55" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "56" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "57" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "58" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "59" (effects (font (size 1.27 1.27))))
+      )
       (pin bidirectional line (at -58.42 20.32 0) (length 2.54)
         (name "GPIO2/TOUCH2/ADC1_CH1" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "60" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "61" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "62" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "63" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "64" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 55.88 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "65" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -58.42 17.78 0) (length 2.54)
         (name "GPIO3/TOUCH3/ADC1_CH2" (effects (font (size 1.27 1.27))))
