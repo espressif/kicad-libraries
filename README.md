@@ -1,9 +1,14 @@
 # Espressif KiCad Library
 
+
+> Notice: A major update from version 1.0.1 was made to be compliant to the [KLC](https://klc.kicad.org/). Please consider updating your library and checking the symbols and footprints.
+
 This repository contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.
 
-
-![Library Downloads](https://img.shields.io/github/downloads/espressif/kicad-libraries/total?style=flat-square)
+[![Library Downloads](https://img.shields.io/github/downloads/espressif/kicad-libraries/total?style=flat-square)](https://github.com/espressif/kicad-libraries/)
+[![GitHub issues](https://img.shields.io/github/issues/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/issues)
+[![GitHub stars](https://img.shields.io/github/stars/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/network)
 
 > Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
@@ -13,9 +18,10 @@ Each footprint library is stored as a directory with the .pretty suffix. The foo
 
 ## Hardware Design Guidelines
 
-Before designing your own hardware, be sure to check all recommendations at:
+Before designing your hardware, be sure to check all recommendations at:
 
-[Espressif Hardware Design Guidelines](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
+* [Espressif Hardware Design Guidelines](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
+* [Espressif Product Selector](https://products.espressif.com/#/)
 
 ## Symbols and Footprints
 
@@ -23,22 +29,29 @@ All footprints were designed according to the Recommended PCB Land Pattern secti
 
 ### SoC
 
-The following SoC are included in this library
+The following SoC are included in this librarys
 
-| SoC          | Symbol | Footprint | Resource                                                                                               |
-|:------------:|:------:|:---------:|:------------------------------------------------------------------------------------------------------:|
-|ESP32         |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)         |
-|ESP32-C3      |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)      |
-|ESP32-PICO-V3 |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf) |
-|ESP32-S2      |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)      |
-|ESP32-S3      |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)      |
-|ESP8286       |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
-|ESP8285       |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
+| SoC               | Symbol | Footprint | Resource                                                                                               |
+|:-----------------:|:------:|:---------:|:------------------------------------------------------------------------------------------------------:|
+|ESP32              |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)         |
+|ESP32-PICO-V3      |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf) |
+|ESP32-S2           |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)      |
+|ESP32-C3           |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)      |
+|ESP32-S3           |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)      |
+|ESP8286            |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
+|ESP8285            |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
+|ESP8684 (ESP32-C2) |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8684_datasheet_en.pdf)       |
+|ESP8685            |Yes     |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685_datasheet_en.pdf)       |
 
 ### Modules
 
 | Module           | Symbol | Footprint | Resource                                                                                                                    |
 |:----------------:|:------:|:---------:|:---------------------------------------------------------------------------------------------------------------------------:|
+|ESP32-WROOM-32E   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
+|ESP32-WROOM-32UE  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
+|ESP32-WROVER-E    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf)     |
+|ESP32-MINI-1      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
+|ESP32-MINI-1U     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
 |ESP32-C3-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
 |ESP32-C3-WROOM-02 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)                  |
 |ESP32-S2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
@@ -46,13 +59,11 @@ The following SoC are included in this library
 |ESP32-S2-SOLO     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf)      |
 |ESP32-S2-WROOM    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf)    |
 |ESP32-S2-WROVER   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf)  |
-|ESP32-S3-MINI-1   |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
-|ESP32-S3-MINI-1U  |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
-|ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
-|ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://products.espressif.com/)                                                                                 |
-|ESP32-WROOM-32E   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
-|ESP32-WROOM-32UE  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
-|ESP32-WROVER-E    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf)     |
+|ESP32-S3-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-S3-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
+|ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
+|ESP32-S3-WROOM-2  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
 
 ### Development Boards
 
@@ -70,7 +81,8 @@ If you want to contribute, please consider sending us a Pull Request (PR).
 ### 3D Models
 
 Espressif provides some 3D models to help you with your project inside the ``3d`` folder.
-To use the files, you need to create an environment variable add the ``3d`` folder path.
+
+To use the files, you need to create an environment variable on the ``3d`` folder path.
 
 * Open ``Open Preferences`` -> ``Configure Paths...``
 * Create the new variable:
