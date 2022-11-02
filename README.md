@@ -29,7 +29,7 @@ All footprints were designed according to the Recommended PCB Land Pattern secti
 
 ### SoC
 
-The following SoC are included in this librarys
+The following SoC are included in this library
 
 | SoC               | Symbol | Footprint | Resource                                                                                               |
 |:-----------------:|:------:|:---------:|:------------------------------------------------------------------------------------------------------:|
