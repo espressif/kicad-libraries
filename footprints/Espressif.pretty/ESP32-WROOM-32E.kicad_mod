@@ -1,6 +1,6 @@
 (footprint "ESP32-WROOM-32E" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 637B75CB)
+  (tedit 637B9713)
   (descr "ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf")
   (tags "ESP32")
   (attr smd)
@@ -91,7 +91,7 @@
   (pad "39" smd rect (at -1.5 2.11 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d437263f-ecc9-45b7-8597-49ccdb712b5c))
   (pad "39" smd rect (at -2.9 2.11 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fbd8f5ee-3f81-4d83-b102-f90921bf1ba6))
   (model "${ESPRESSIF_3DMODELS}/ESP32-WROOM-32E.STEP"
-    (offset (xyz -9.01 -9.6 0))
+    (opacity 0.7900)    (offset (xyz -9.01 -11 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
