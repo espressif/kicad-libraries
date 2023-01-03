@@ -1,6 +1,6 @@
 (footprint "ESP32-S3-WROOM-1U" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 635FBD33)
+  (tedit 63B32221)
   (descr "ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.")
   (tags "esp32-s3")
   (attr smd)
@@ -87,4 +87,9 @@
   (pad "41" smd rect (at -0.1 -1.94 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d54fa077-c2ff-4eea-b648-1196b267c6d8))
   (pad "41" smd rect (at -2.9 0.86 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd462884-daa4-41ad-96c7-69385fea5293))
   (pad "41" smd rect (at -1.5 -0.54 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de01120d-7504-4a2f-a552-ced0351d2228))
+  (model "${ESPRESSIF_3DMODELS}/ESP32-S3-WROOM-1U.STEP"
+    (offset (xyz -9 -9.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
