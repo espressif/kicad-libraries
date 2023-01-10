@@ -427,6 +427,10 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
       (pin bidirectional line (at -27.94 15.24 0) (length 2.54)
         (name "GPIO0/ADC1_CH0/XTAL_32K_P" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
@@ -434,6 +438,10 @@
       (pin bidirectional line (at -27.94 12.7 0) (length 2.54)
         (name "GPIO1/ADC1_CH1/XTAL_32K_N" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 27.94 -27.94 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
       )
       (pin no_connect line (at 27.94 17.78 180) (length 2.54)
         (name "NC" (effects (font (size 1.27 1.27))))
