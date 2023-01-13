@@ -81,21 +81,7 @@
   (pad "19" smd rect (at 2.06 -0.8 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3ef43263-bb15-4c8a-9977-70c3e1b233f6))
   (pad "19" smd rect (at 2.06 0.3 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp af0b929f-5dde-42f9-843a-729b5cd12cd5))
   (pad "19" smd rect (at 2.06 1.4 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ccaa96fe-871f-4ab1-ba83-30e49be46d16))
-  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp 0f0edc23-777c-4484-a0a5-043f9fa5f2d4) (name "antenna keepout") (hatch edge 0.5)
-    (connect_pads (clearance 0))
-    (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
-    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
-    (polygon
-      (pts
-        (xy -9 -7)
-        (xy -9 -13)
-        (xy 9 -13)
-        (xy 9 -7)
-      )
-    )
-  )
-  (model "${ESPRESSIF_3DMODELS}/ESP32-C3-WROOM-02.STEP"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-C3-WROOM-02.STEP"
     (offset (xyz -9 -7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -108,21 +108,10 @@
   (pad "39" smd rect (at -0.1 -0.69 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1bd8c121-7f78-48f6-a54f-5b4248435a67))
   (pad "39" smd rect (at -0.1 0.71 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1f89f15a-97ee-41bb-9159-f60d60768b23))
   (pad "39" smd rect (at -0.1 2.11 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a4101076-bebe-4d1f-ae3a-006dddf9825a))
-  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp d66c0a4f-5ea9-404c-b07b-9db38a355300) (name "antenna keepout") (hatch edge 0.5)
-    (connect_pads (clearance 0))
-    (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
-    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
-    (polygon
-      (pts
-        (xy -9 -8.5)
-        (xy -9 -14.5)
-        (xy 9 -14.5)
-        (xy 9 -8.5)
-      )
-    )
-  )
-  (model "${ESPRESSIF_3DMODELS}/ESP32-WROOM-32E.STEP"
+  (pad "39" smd rect (at -2.9 -0.69 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b4aab1f4-9748-4abc-9441-06f925b9ed46))
+  (pad "39" smd rect (at -1.5 2.11 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d437263f-ecc9-45b7-8597-49ccdb712b5c))
+  (pad "39" smd rect (at -2.9 2.11 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fbd8f5ee-3f81-4d83-b102-f90921bf1ba6))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROOM-32E.STEP"
     (opacity 0.7900)    (offset (xyz -9.01 -11 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
