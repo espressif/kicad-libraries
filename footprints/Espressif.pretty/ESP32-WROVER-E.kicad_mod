@@ -83,7 +83,7 @@
   (pad "39" smd rect (at -0.1 -0.46) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de43ad8c-51a6-4981-99f0-c51e816adcd2))
   (pad "39" smd rect (at -1.5 0.94) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f561a24d-4fff-44bc-bf0a-c3ef485dd76b))
   (pad "39" smd rect (at -0.1 0.94) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fe73b655-dc4d-4f21-947a-784d8831930f))
-  (model "${ESPRESSIF_3DMODELS}/ESP32-WROVER-E.STEP"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
     (offset (xyz -9 -15.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

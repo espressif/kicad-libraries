@@ -90,7 +90,7 @@
   (pad "39" smd rect (at -2.9 -0.69 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b4aab1f4-9748-4abc-9441-06f925b9ed46))
   (pad "39" smd rect (at -1.5 2.11 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d437263f-ecc9-45b7-8597-49ccdb712b5c))
   (pad "39" smd rect (at -2.9 2.11 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fbd8f5ee-3f81-4d83-b102-f90921bf1ba6))
-  (model "${ESPRESSIF_3DMODELS}/ESP32-WROOM-32E.STEP"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROOM-32E.STEP"
     (opacity 0.7900)    (offset (xyz -9.01 -11 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
