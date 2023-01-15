@@ -26,3 +26,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Python package script things
+/venv/
+/build/
