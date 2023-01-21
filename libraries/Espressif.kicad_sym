@@ -5569,6 +5569,9 @@
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp8684_datasheet_en.pdf" (id 3) (at 0 -30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_description" "ESP8684 is an Ultra­Low­Power SoC with RISC­V Single­Core CPU,Supporting IEEE 802.11b/g/n (2.4 GHz Wi­Fi) and Bluetooth 5 (LE)" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "ESP8684_0_0"
       (text "ESP8684" (at 0 -22.86 0)
         (effects (font (size 2.54 2.54)))
