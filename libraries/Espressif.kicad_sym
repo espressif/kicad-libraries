@@ -761,6 +761,9 @@
     (property "ki_description" "ESP32C6,ultra-low-power SoC with RISC-V single-core microprocessor,2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth 5 (LE), Zigbee and Thread (802.15.4),QFN-40" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "QFN*W5mm*P0.4mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "ESP32-C6_0_1"
       (rectangle (start -30.48 30.48) (end 30.48 -30.48)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
@@ -951,6 +954,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ESP32-C6, ultra-low-power SoC with RISC-V single-core microprocessor,2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth 5 (LE), Zigbee and Thread (802.15.4),QFN-32" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "QFN*W5mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ESP32-C6FH4_0_1"
