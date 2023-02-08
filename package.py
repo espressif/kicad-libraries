@@ -14,6 +14,14 @@ directories_to_zip = [
 ]
 
 
+ZIP_FILE_NAME = "espressif-kicad-addon.zip"
+DOWNLOAD_URL = "https://github.com/espressif/kicad-libraries/releases/download/{VERSION}/{ZIP_FILE_NAME}"
+
+
+def create_json_string(zip_internal_metadata_json: dict):
+    return json.dumps(zip_internal_metadata_json, indent=4)
+
+
 def read_template_json_file():
     with open('metadata.template.json', mode='r') as metadata_file:
         metadat_template = json.load(metadata_file)
@@ -35,10 +43,11 @@ def create_zip_internal_metadata_json(version: str):
     return template
 
 
-def create_full_metadata_file(version: str, existing_versions: [], zip_size: int, zip_internal_size: int, zip_file_sha256: str):
+def create_full_metadata_file(version: str, existing_versions: [], zip_size: int, zip_internal_size: int,
+                              zip_file_sha256: str):
     template = read_template_json_file()
 
-    download_url = "https://github.com/espressif/kicad-libraries/releases/download/" + version + "/espressif-kicad-addon.zip"
+    download_url = DOWNLOAD_URL.replace("{VERSION}", version).replace("{ZIP_FILE_NAME}", ZIP_FILE_NAME)
 
     version_item = {
         "version": version,
@@ -54,7 +63,7 @@ def create_full_metadata_file(version: str, existing_versions: [], zip_size: int
     template['versions'] = existing_versions
 
     with open('metadata.json', mode='w') as metadata_file:
-        metadata_file.write(json.dumps(template, indent=4))
+        metadata_file.write(create_json_string(template))
 
 
 def zip_directory(target: str, zip_handle: zipfile.ZipFile):
@@ -71,7 +80,7 @@ def package_directories_to_zip(zip_handle: zipfile.ZipFile):
 
 def add_zip_internal_metadata_json(zip_handle: zipfile.ZipFile, version: str):
     zip_internal_metadata_json = create_zip_internal_metadata_json(version)
-    zip_handle.writestr('/metadata.json', json.dumps(zip_internal_metadata_json, indent=4))
+    zip_handle.writestr('/metadata.json', create_json_string(zip_internal_metadata_json))
 
 
 def calculate_zip_content_size(zip_handle: zipfile.ZipFile) -> int:
@@ -126,20 +135,24 @@ def check_version_already_exist(version, existing_versions):
 def package():
     print('This script helps to generate a new kicad addon release. \n')
     print('It generates the release zip file and the metadata.json \n\n')
-    version = input('Please input the new addon version (must be the same as the github release version):')
+    version = input('Please input the new addon version (must be the same as the github release version): ')
 
     if not re.match('^\d{1,4}(\.\d{1,4}(\.\d{1,6})?)?$', version):
-        raise Exception("Version string is invalid. Required format: major[.minor[.patch]] (major, minor, patch are numbers)")
+        raise Exception(
+            "Version string is invalid. Required format: major[.minor[.patch]] (major, minor, patch are numbers)")
 
     existing_versions = read_all_existing_versions()
     if check_version_already_exist(version, existing_versions):
         raise Exception("The specified version " + version + " already exist")
 
-    print("\n Start to packaging documents to zip")
+    print("Start to packaging documents to zip\n")
     if not os.path.isdir('build/'):
         os.mkdir('build')
 
-    zip_file_path = os.path.join('build', "espressif-kicad-addon-" + version + ".zip")
+    zip_file_path = os.path.join('build', ZIP_FILE_NAME)
+
+    if os.path.isfile(zip_file_path):
+        os.remove(zip_file_path)
 
     zip_internal_size = generate_release_zip_file(zip_file_path, version)
     zip_sha256 = generate_sha256(zip_file_path)
