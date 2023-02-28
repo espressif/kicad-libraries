@@ -131,10 +131,10 @@
   (pad "41" smd rect (at -2.9 -1.07 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b4aab1f4-9748-4abc-9441-06f925b9ed46))
   (pad "41" smd rect (at -1.5 1.73 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d437263f-ecc9-45b7-8597-49ccdb712b5c))
   (pad "41" smd rect (at -2.9 1.73 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fbd8f5ee-3f81-4d83-b102-f90921bf1ba6))
-  (zone (net 0) (net_name "") (layers *.Cu) (tstamp 7b215d69-dcfd-4121-8a8b-75c26eeebbc5) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layers *.Cu) (tstamp 7b215d69-dcfd-4121-8a8b-75c26eeebbc5) (name "Antenna Keep out") (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
