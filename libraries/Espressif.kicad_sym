@@ -1025,7 +1025,7 @@
         (name "GPIO15" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -10.16 0) (length 2.54)
+      (pin no_connect line (at -25.4 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
@@ -1073,19 +1073,19 @@
         (name "U0TXD/GPIO16" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -12.7 0) (length 2.54)
+      (pin no_connect line (at -25.4 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -15.24 0) (length 2.54)
+      (pin no_connect line (at -25.4 -15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -17.78 0) (length 2.54)
+      (pin no_connect line (at -25.4 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -20.32 0) (length 2.54)
+      (pin no_connect line (at -25.4 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
@@ -1105,7 +1105,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -5.08 0) (length 2.54)
+      (pin no_connect line (at -25.4 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -1173,7 +1173,7 @@
         (name "GPIO3/ADC1_CH3" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -7.62 0) (length 2.54)
+      (pin no_connect line (at -25.4 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1274,7 +1274,7 @@
         (name "GPIO23" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -25.4 -12.7 0) (length 2.54)
+      (pin no_connect line (at -25.4 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
