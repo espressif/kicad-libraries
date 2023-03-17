@@ -408,7 +408,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ESP32-C3-MINI-1_0_0"
-      (text "ESP32-C3-MINI-1" (at 0 0 0)
+      (text "ESP32-C3-MINI-1" (at 0 2.54 0)
         (effects (font (size 2.54 2.54)))
       )
     )
@@ -535,19 +535,19 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -555,43 +555,43 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
@@ -599,19 +599,19 @@
         (name "GPIO2/ADC1_CH2" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.0198 -28.0328 90) (length 2.54) hide
+      (pin passive line (at 0 -27.94 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "53" (effects (font (size 1.27 1.27))))
       )
