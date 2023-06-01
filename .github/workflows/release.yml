@@ -1,0 +1,34 @@
+name: Library Release PCM
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Get Tag Name
+        uses: olegtarasov/get-tag@v2.1.2
+        id: tagName
+
+      - name: Create the PCM package
+        run: |
+          echo "Release tag $GIT_TAG_NAME"
+          python3 package.py $GIT_TAG_NAME
+          
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./build/espressif-kicad-addon.zip
+          asset_name: espressif-kicad-addon.zip
+          asset_content_type: application/zip

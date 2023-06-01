@@ -5,6 +5,7 @@ import zipfile
 import os
 import re
 import hashlib
+import sys
 
 directories_to_zip = [
     "3dmodels",
@@ -132,10 +133,19 @@ def check_version_already_exist(version, existing_versions):
     return False
 
 
+def get_version_from_user():
+    version = input("Enter the new addon version (required format: major[.minor[.patch]]): ")
+    return version.strip()
+
+
 def package():
     print('This script helps to generate a new kicad addon release. \n')
     print('It generates the release zip file and the metadata.json \n\n')
-    version = input('Please input the new addon version (must be the same as the github release version): ')
+
+    if len(sys.argv) < 2:
+        version = get_version_from_user()
+    else:
+        version = sys.argv[1]
 
     if not re.match('^\d{1,4}(\.\d{1,4}(\.\d{1,6})?)?$', version):
         raise Exception(
@@ -143,9 +153,9 @@ def package():
 
     existing_versions = read_all_existing_versions()
     if check_version_already_exist(version, existing_versions):
-        raise Exception("The specified version " + version + " already exist")
+        raise Exception("The specified version " + version + " already exists")
 
-    print("Start to packaging documents to zip\n")
+    print("Start packaging documents to zip\n")
     if not os.path.isdir('build/'):
         os.mkdir('build')
 
@@ -164,6 +174,7 @@ def package():
     create_full_metadata_file(version, existing_versions, zip_size, zip_internal_size, zip_sha256)
 
     print('All necessary files are generated. Now follow the steps on release-kicad-addons.md')
+
 
 
 if __name__ == "__main__":

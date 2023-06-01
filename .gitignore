@@ -27,6 +27,6 @@ fp-info-cache
 *.xml
 *.csv
 
-# Python package script things
-/venv/
-/build/
+# PCM build files
+build
+espressif-kicad-addon.zip
