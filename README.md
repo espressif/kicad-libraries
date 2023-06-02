@@ -5,10 +5,9 @@
 
 This repository contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.
 
-[![Library Downloads](https://img.shields.io/github/downloads/espressif/kicad-libraries/total?style=flat-square)](https://github.com/espressif/kicad-libraries/)
-[![GitHub issues](https://img.shields.io/github/issues/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/issues)
 [![GitHub stars](https://img.shields.io/github/stars/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/network)
+[![GitHub issues](https://img.shields.io/github/issues/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/issues)
 
 > Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
@@ -82,20 +81,37 @@ The following SoC are included in this library
 |ESP32-S3-DevKitC |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20220413.pdf) |
 |ESP32-S2-DevKitM |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-DevKitM-1_V1_Schematics.pdf)     |
 
-### Contributing
+## Manual Installation
+
+The Espressif KiCad library is distributed via the Pluguin and Content Manager (PCM) and the installation is done automatically.
+
+To install the library, you need to download the **"espressif-kicad-addon.zip"** file from the latest release. For legacy support, please visit the legacy branch and follow the instructions from there.
+
+* [Latest Release](https://github.com/espressif/kicad-libraries/releases/latest)
+
+For KiCad 6 and 7, you can use the following steps:
+
+1. On KiCad, open the PCM in the main KiCad window.
+
+![First Step](resources/pcm_install_step-1.png)
+
+2. The PCM window will display a list of available plugins, libraries, and color themes. You can browse through the categories or use the search bar to find a specific package.
+
+![First Step](resources/pcm_install_step-2.png)
+
+3. To install the library manually using the ZIP file from the latest release, you need to select the file from **"Install from file..."**
+
+![First Step](resources/pcm_install_step-3.png)
+
+4. Once the package is installed, you will see the Espressif Library listed on the Installed tab.
+
+![First Step](resources/pcm_install_step-4.png)
+
+5. Now you are ready to use the library. Note that the library will be listed as **PCM_Espressif** in the Symbol and Footprint.
+
+## Contributing
 
 If you want to contribute, please consider sending us a Pull Request (PR).
-
-### 3D Models
-
-Espressif provides some 3D models to help you with your project inside the ``3d`` folder.
-
-To use the files, you need to create an environment variable on the ``3d`` folder path.
-
-* Open ``Open Preferences`` -> ``Configure Paths...``
-* Create the new variable:
-    * Name: ``ESPRESSIF_3DMODELS``
-    * Path: ``<PATH_TO_THE_3D_FOLDER>``
 
 ### About KiCad
 
