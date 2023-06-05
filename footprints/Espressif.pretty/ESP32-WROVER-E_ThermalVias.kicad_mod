@@ -110,7 +110,7 @@
   (pad "39" smd rect (at -0.1 0.94) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f10e47e3-5cd0-463f-969e-990e645a1167))
   (pad "39" thru_hole circle (at 0.7 -1.16) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask) (tstamp f1fd5161-f005-44da-b0d1-69ee3452cf9e))
   (pad "39" thru_hole circle (at -0.8 0.24) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask) (tstamp fffedef1-edd3-41be-bde2-66cb27a5649f))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
     (offset (xyz -9 -15.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
