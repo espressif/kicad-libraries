@@ -1,0 +1,25 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Espressif Library",
+    "description": "This addon contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.",
+    "description_full": "This addon contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family. All footprints were designed according to the Recommended PCB Land Pattern section present on each module datasheet.\n\n\n # Hardware Design Guidelines\n\n Before designing your hardware, be sure to check all recommendations at:\n\n- Espressif Hardware Design Guidelines: https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf\n-Espressif Product Selector: https://products.espressif.com/#/",
+    "identifier": "com.github.espressif.kicad-libraries",
+    "type": "library",
+    "author": {
+        "name": "Pedro Minatel",
+        "contact": {
+            "web": "https://github.com/espressif/kicad-libraries"
+        }
+    },
+    "maintainer": {
+        "name": "Pedro Minatel",
+        "contact": {
+            "web": "https://github.com/espressif/kicad-libraries"
+        }
+    },
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://github.com/espressif/kicad-libraries"
+    },
+    "versions": []
+}

@@ -116,7 +116,7 @@
   (pad "51" smd rect (at 5.95 5.65 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 30aad354-f659-4962-8ba3-32f351d490c0))
   (pad "52" smd rect (at -5.95 5.65 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 206bfdd0-417d-49a5-beaa-7015cee73d7c))
   (pad "53" smd rect (at -5.95 -4.25 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db00ed9d-5cbd-42e1-a367-f32e41a8348a))
-  (model "${ESPRESSIF_3DMODELS}/ESP32-C3-MINI-1U.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-C3-MINI-1U.STEP"
     (offset (xyz -6.6 -6.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

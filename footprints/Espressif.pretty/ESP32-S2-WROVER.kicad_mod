@@ -108,21 +108,11 @@
   (pad "43" smd rect (at 0.31 -4.65 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a0d3c320-f882-4c60-809b-3dc09f9b126c))
   (pad "43" smd rect (at 0.31 -3.1 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 696169a6-76df-4bb5-9f94-ded2331ff7af))
   (pad "43" smd rect (at 0.31 -1.6 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 802ed9fb-dd12-44f1-b72e-ed099455a10f))
-  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp ba9e083d-9cfc-4c20-9aca-620ec07d938f) (name "antenna keepout") (hatch edge 0.5)
-    (connect_pads (clearance 0))
-    (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
-    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
-    (polygon
-      (pts
-        (xy -9 -12.35)
-        (xy -9 -18.65)
-        (xy 9 -18.65)
-        (xy 9 -12.35)
-      )
-    )
-  )
-  (model "${ESPRESSIF_3DMODELS}/ESP32-S2-WROVER.STEP"
+  (pad "43" smd rect (at -2.69 -1.6 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9aaf5c92-cabe-41ab-a047-c704c51ae7c6))
+  (pad "43" smd rect (at 0.31 -4.65 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a0d3c320-f882-4c60-809b-3dc09f9b126c))
+  (pad "43" smd rect (at -1.19 -1.6 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp be49e4e2-6d35-4f0f-a58c-99bfd9d4b1c9))
+  (pad "43" smd rect (at -1.19 -3.1 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c5d2cc45-9cad-4d8e-8b55-e0a68b7f469d))
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-S2-WROVER.STEP"
     (offset (xyz -9 18.65 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

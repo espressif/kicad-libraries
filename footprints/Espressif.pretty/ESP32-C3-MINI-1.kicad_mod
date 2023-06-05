@@ -145,21 +145,7 @@
   (pad "51" smd rect (at 5.95 7.65 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 50e39e15-e0de-401a-a82b-545a6109027c))
   (pad "52" smd rect (at -5.95 7.65 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 90785223-6d97-4390-8591-b39e1571cb90))
   (pad "53" smd rect (at -5.95 -2.25 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 35506341-d62d-48a0-90e4-2b1ad79286f3))
-  (zone (net 0) (net_name "") (layers "*.Cu" "F.Fab") (tstamp 2df4318c-be3e-4360-af4a-8cb614174ebb) (name "antenna keepout") (hatch edge 0.5)
-    (connect_pads (clearance 0))
-    (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
-    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
-    (polygon
-      (pts
-        (xy -6.6 -2.9)
-        (xy -6.6 -8.3)
-        (xy 6.6 -8.3)
-        (xy 6.6 -2.9)
-      )
-    )
-  )
-  (model "${ESPRESSIF_3DMODELS}/ESP32-C3-MINI-1.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-C3-MINI-1.STEP"
     (offset (xyz -6.6 -8.37 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

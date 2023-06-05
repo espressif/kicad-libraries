@@ -127,7 +127,7 @@
   (pad "63" smd rect (at -7 7 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e45fcfed-f0fa-4774-a755-a370fc083a7b))
   (pad "64" smd rect (at 7 7 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 89c03684-f3c5-4a26-981f-c71a6f283cdf))
   (pad "65" smd rect (at 7 -7 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2ea128a7-52a4-40f8-af72-c940669cdcd0))
-  (model "${ESPRESSIF_3DMODELS}/ESP32-S2-MINI-1U.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-S2-MINI-1U.STEP"
     (offset (xyz -7.7 7.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -108,23 +108,9 @@
   (pad "39" smd rect (at -0.1 -1.86) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e99feea-8a0e-495e-9179-6cc7f12d2ada))
   (pad "39" smd rect (at -0.1 -0.46) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 766833b9-0d48-4334-ac38-132e41787a5b))
   (pad "39" smd rect (at -0.1 0.94) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f10e47e3-5cd0-463f-969e-990e645a1167))
-  (pad "39" thru_hole circle (at 0.7 -1.16) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp f1fd5161-f005-44da-b0d1-69ee3452cf9e))
-  (pad "39" thru_hole circle (at 0.7 0.24) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp 017ace7d-49c3-4e45-ac38-c7d2fd7c2434))
-  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp 6c32abe3-e71b-46b8-92a6-a9e81e98bc4d) (name "antenna keepout") (hatch edge 0.5)
-    (connect_pads (clearance 0))
-    (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
-    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
-    (polygon
-      (pts
-        (xy -9 -9.4)
-        (xy -9 -15.7)
-        (xy 9 -15.7)
-        (xy 9 -9.4)
-      )
-    )
-  )
-  (model "${ESPRESSIF_3DMODELS}/ESP32-WROVER-E.STEP"
+  (pad "39" thru_hole circle (at 0.7 -1.16) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask) (tstamp f1fd5161-f005-44da-b0d1-69ee3452cf9e))
+  (pad "39" thru_hole circle (at -0.8 0.24) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask) (tstamp fffedef1-edd3-41be-bde2-66cb27a5649f))
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
     (offset (xyz -9 -15.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
