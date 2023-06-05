@@ -32,3 +32,14 @@ jobs:
           asset_path: ./build/espressif-kicad-addon.zip
           asset_name: espressif-kicad-addon.zip
           asset_content_type: application/zip
+
+      - name: Include Metadata File on Main Branch
+        run: |
+          mkdir -p ./build/main
+          cp ./metadata.json ./build/main/metadata.json
+
+      - name: Commit and Push Changes to Main Branch
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Add auto generated metadata.json file to the main branch'
+          branch: main
