@@ -1,15 +1,17 @@
 # Espressif KiCad Library
 
-
-> Notice: A major update from version 1.0.1 was made to be compliant to the [KLC](https://klc.kicad.org/). Please consider updating your library and checking the symbols and footprints.
-
-This repository contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.
-
 [![GitHub stars](https://img.shields.io/github/stars/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/network)
 [![GitHub issues](https://img.shields.io/github/issues/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/issues)
 
-> Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
+> Notice: A major update from version 1.0.1 was made to be compliant to the [KLC](https://klc.kicad.org/). Please consider updating your library and checking the symbols and footprints.
+
+> From the version 2.0.0, the library instalation process is done by the PCM.
+
+This repository contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.
+
+
+* Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
 **The libraries in this repository are intended to be used with KiCad version 7.**
 
@@ -81,7 +83,7 @@ The following SoC are included in this library
 |ESP32-S3-DevKitC |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20220413.pdf) |
 |ESP32-S2-DevKitM |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-DevKitM-1_V1_Schematics.pdf)     |
 
-## Manual Installation
+## Manual Installation - PCM
 
 The Espressif KiCad library is distributed via the Pluguin and Content Manager (PCM) and the installation is done automatically.
 
