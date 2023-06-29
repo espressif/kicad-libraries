@@ -98,6 +98,20 @@
   (pad "39" smd rect (at -0.1 -1.86) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 29bff0a9-b1ae-4c6d-b30d-53cf9579ecba))
   (pad "39" smd rect (at -0.1 -0.46) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de43ad8c-51a6-4981-99f0-c51e816adcd2))
   (pad "39" smd rect (at -0.1 0.94) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fe73b655-dc4d-4f21-947a-784d8831930f))
+  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp 7638c336-5479-434b-8a91-426a8629e419) (name "antenna keepout") (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254) (filled_areas_thickness no)
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 9 -9.395)
+        (xy -9 -9.395)
+        (xy -9 -15.695)
+        (xy 9 -15.695)
+      )
+    )
+  )
   (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
     (offset (xyz -9 -15.7 0))
     (scale (xyz 1 1 1))
