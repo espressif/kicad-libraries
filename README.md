@@ -34,6 +34,8 @@ All footprints were designed according to the Recommended PCB Land Pattern secti
 
 The following SoC are included in this library
 
+**Please note**: The footprints in this table are only available when [the official KiCad library](https://gitlab.com/kicad/libraries/kicad-footprints) is installed as the symbols rely on its footprints.
+
 | SoC               | Symbol | Footprint | Resource                                                                                               |
 |:-----------------:|:------:|:---------:|:------------------------------------------------------------------------------------------------------:|
 |ESP32              |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)         |
