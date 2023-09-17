@@ -5459,7 +5459,7 @@
       (text "ESP32-S3-WROOM-2" (at -20.32 0 0)
         (effects (font (size 2.54 2.54)))
       )
-      (pin power_in line (at 0 -38.1 270) (length 2.54)
+      (pin power_in line (at 0 -40.64 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -5595,11 +5595,11 @@
         (name "GPIO4/TOUCH4/ADC1_CH3" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -38.1 270) (length 2.54) hide
+      (pin passive line (at 0 -40.64 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -38.1 270) (length 2.54) hide
+      (pin passive line (at 0 -40.64 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
