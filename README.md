@@ -99,19 +99,19 @@ For KiCad 6 and 7, you can use the following steps:
 
 1. On KiCad, open the PCM in the main KiCad window.
 
-![First Step](resources/pcm_install_step-1.png)
+![First Step](docs/pcm_install_step-1.png)
 
 2. The PCM window will display a list of available plugins, libraries, and color themes. You can browse through the categories or use the search bar to find a specific package.
 
-![First Step](resources/pcm_install_step-2.png)
+![First Step](docs/pcm_install_step-2.png)
 
 3. To install the library manually using the ZIP file from the latest release, you need to select the file from **"Install from file..."**
 
-![First Step](resources/pcm_install_step-3.png)
+![First Step](docs/pcm_install_step-3.png)
 
 4. Once the package is installed, you will see the Espressif Library listed on the Installed tab.
 
-![First Step](resources/pcm_install_step-4.png)
+![First Step](docs/pcm_install_step-4.png)
 
 5. Now you are ready to use the library. Note that the library will be listed as **PCM_Espressif** in the Symbol and Footprint.
 

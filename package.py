@@ -81,7 +81,7 @@ def package_directories_to_zip(zip_handle: zipfile.ZipFile):
 
 def add_zip_internal_metadata_json(zip_handle: zipfile.ZipFile, version: str):
     zip_internal_metadata_json = create_zip_internal_metadata_json(version)
-    zip_handle.writestr('/metadata.json', create_json_string(zip_internal_metadata_json))
+    zip_handle.writestr('metadata.json', create_json_string(zip_internal_metadata_json))
 
 
 def calculate_zip_content_size(zip_handle: zipfile.ZipFile) -> int:
