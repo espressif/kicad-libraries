@@ -97,6 +97,9 @@ The Espressif KiCad library is distributed via the Pluguin and Content Manager (
 
 To install the library, you need to download the **"espressif-kicad-addon.zip"** file from the latest release. For legacy support, please visit the legacy branch and follow the instructions from there.
 
+
+> Make sure to download the correct zip file and ***do not extract the files***. If you are using macOS and Safari, ensure to that the automatic unzip feature (**Open safe files after downloading**) is disabled.
+
 * [Latest Release](https://github.com/espressif/kicad-libraries/releases/latest)
 
 For KiCad 6 and 7, you can use the following steps:
