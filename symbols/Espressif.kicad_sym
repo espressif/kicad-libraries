@@ -1906,6 +1906,9 @@
     (property "ki_description" "ESP32-C6-WROOM-1 is a module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread (802.15.4)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ESP32-C6-WROOM-1*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "ESP32-C6-WROOM-1_0_0"
       (text "ESP32-C6-WROOM-1" (at 0 -20.955 0)
         (effects (font (size 2 2)))
