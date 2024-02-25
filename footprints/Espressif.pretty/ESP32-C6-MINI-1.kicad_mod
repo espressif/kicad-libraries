@@ -159,7 +159,7 @@
       )
     )
   )
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-C6-MINI-1.STEP"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-C6-MINI-1.STEP"
     (offset (xyz -6.55 -8.3 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

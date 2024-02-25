@@ -125,7 +125,7 @@
       )
     )
   )
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROOM-32E.STEP"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROOM-32E.STEP"
     (opacity 0.7900)    (offset (xyz -9.01 -11 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

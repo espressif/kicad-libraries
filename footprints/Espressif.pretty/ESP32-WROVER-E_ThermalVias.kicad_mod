@@ -124,7 +124,7 @@
       )
     )
   )
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
     (offset (xyz -9 -15.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
