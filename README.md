@@ -37,7 +37,7 @@ The following SoC are included in this library
 **Please note**: The footprints in this table are only available when [the official KiCad library](https://gitlab.com/kicad/libraries/kicad-footprints) is installed as the symbols rely on its footprints.
 
 | SoC               | Symbol | Footprint | Resource                                                                                               |
-|:-----------------:|:------:|:---------:|:------------------------------------------------------------------------------------------------------:|
+|:------------------|:------:|:---------:|:-------------------------------------------------------------------------------------------------------|
 |ESP32              |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)         |
 |ESP32-PICO-V3      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf) |
 |ESP32-S2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)      |
@@ -53,7 +53,7 @@ The following SoC are included in this library
 ### Modules
 
 | Module           | Symbol | Footprint | Resource                                                                                                                    |
-|:----------------:|:------:|:---------:|:---------------------------------------------------------------------------------------------------------------------------:|
+|:-----------------|:------:|:---------:|:----------------------------------------------------------------------------------------------------------------------------|
 |ESP32-WROOM-32E   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
 |ESP32-WROOM-32UE  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
 |ESP32-WROOM-DA    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-da_datasheet_en.pdf)                     |
@@ -77,12 +77,12 @@ The following SoC are included in this library
 |ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-2  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
-|ESP32-H2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |                   |
+|ESP32-H2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
 
 ### Development Boards
 
 | Dev Board        | Symbol | Footprint | Resource                                                                                    |
-|:----------------:|:------:|:---------:|:-------------------------------------------------------------------------------------------:|
+|:-----------------|:------:|:---------:|:--------------------------------------------------------------------------------------------|
 |ESP32-S2-Saola-1  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-SAOLA-1_V1.1_schematics.pdf)     |
 |ESP32-S2-DevKitC-1|Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/esp-idf/SCH_ESP32-S2-DEVKITC-1_V1_20220817.pdf) |
 |ESP32-DevKitC     |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf)                 |
