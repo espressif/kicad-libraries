@@ -7429,7 +7429,7 @@
     (property "Value" "ESP8685-WROOM-06" (at -33.02 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Espressif:ESP8685-WROOM-06" (at 2.54 -33.02 0)
+    (property "Footprint" "PCM_Espressif:ESP8685-WROOM-06" (at 2.54 -33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf" (at 2.54 -3.81 0)
