@@ -13,7 +13,7 @@ This repository contains the Symbols, Footprint, and 3D Models for the Espressif
 
 * Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
-**The libraries in this repository are intended to be used with KiCad version 7.**
+**The libraries in this repository are intended to be used with KiCad version 8.**
 
 For the KiCad 6 legacy library, please use [this branch](https://github.com/espressif/kicad-libraries/tree/legacy_kicad6) instead.
 
@@ -109,7 +109,7 @@ To install the library, you need to download the **[espressif-kicad-addon.zip](h
 
 * [Latest Release Notes and Files](https://github.com/espressif/kicad-libraries/releases/latest)
 
-For KiCad 6 and 7, you can use the following steps:
+For KiCad 6, 7 and 8 you can use the following steps:
 
 1. On KiCad, open the PCM in the main KiCad window.
 

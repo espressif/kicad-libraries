@@ -94,7 +94,7 @@
   (pad "41" smd rect (at -0.1 -1.94 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b024abe4-8216-4a32-93d4-84a8fee4c2b2))
   (pad "41" smd rect (at -0.1 -0.54 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 848cbf8f-7971-4160-b1cb-5ef5c5f778c1))
   (pad "41" smd rect (at -0.1 0.86 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 80bbc5b6-fa99-4be6-8706-175bfe844748))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-S2-SOLO-U.STEP"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-S2-SOLO-U.STEP"
     (offset (xyz -9 -9.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
