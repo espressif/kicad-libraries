@@ -1,8 +1,9 @@
 # Espressif KiCad Library
 
-[![GitHub stars](https://img.shields.io/github/stars/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/network)
-[![GitHub issues](https://img.shields.io/github/issues/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/issues)
+[![Stars](https://img.shields.io/github/stars/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/stargazers)
+[![Forks](https://img.shields.io/github/forks/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/network)
+[![Issues](https://img.shields.io/github/issues/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/issues)
+![Downloads](https://img.shields.io/github/downloads/espressif/kicad-libraries/total?style=flat-square)
 
 > Notice: A major update from version 1.0.1 was made to be compliant to the [KLC](https://klc.kicad.org/). Please consider updating your library and checking the symbols and footprints.
 
@@ -15,7 +16,10 @@ This repository contains the Symbols, Footprint, and 3D Models for the Espressif
 
 **The libraries in this repository are intended to be used with KiCad version 8.**
 
-For the KiCad 6 legacy library, please use [this branch](https://github.com/espressif/kicad-libraries/tree/legacy_kicad6) instead.
+For the KiCad legacy libraries, please use the following branch:
+
+* [KiCad 6](https://github.com/espressif/kicad-libraries/tree/legacy_kicad6)
+* [KiCad 7](https://github.com/espressif/kicad-libraries/tree/legacy_kicad7)
 
 Each footprint library is stored as a directory with the .pretty suffix. The footprint files are .kicad_mod files within.
 
