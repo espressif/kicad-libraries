@@ -2559,7 +2559,7 @@
     (property "Value" "ESP32-H2-MINI-1" (at -33.02 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Espressif:ESP32-H2-MINI-1" (at 1.27 -39.37 0)
+    (property "Footprint" "PCM_Espressif:ESP32-H2-MINI-1" (at 1.27 -39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf" (at 0 -41.91 0)
