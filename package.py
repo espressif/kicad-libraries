@@ -36,7 +36,7 @@ def create_zip_internal_metadata_json(version: str):
     version_item = {
         "version": version,
         "status": "stable",
-        "kicad_version": "7.0.0"
+        "kicad_version": "8.0.0"
     }
 
     template["versions"] = [version_item]
@@ -53,7 +53,7 @@ def create_full_metadata_file(version: str, existing_versions: [], zip_size: int
     version_item = {
         "version": version,
         "status": "stable",
-        "kicad_version": "7.0.0",
+        "kicad_version": "8.0.0",
         "download_sha256": zip_file_sha256,
         "download_size": zip_size,
         "download_url": download_url,
