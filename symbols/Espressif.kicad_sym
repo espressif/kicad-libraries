@@ -2548,11 +2548,11 @@
         (number "31" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 33.02 27.94 180) (length 2.54)
-        (name "U0RXD/GPIO3" (effects (font (size 1.27 1.27))))
+        (name "U0TX/GPIO1" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 33.02 30.48 180) (length 2.54)
-        (name "U0TXD/GPIO1" (effects (font (size 1.27 1.27))))
+        (name "U0RX/GPIO3" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -35.56 90) (length 2.54) hide
