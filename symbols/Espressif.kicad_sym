@@ -13133,7 +13133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Espressif:Espressif:ESP32-P4"
 			(at -54.61 -41.91 0)
 			(effects
 				(font
@@ -13151,7 +13151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High-performance MCU with one RISC-V 32-bit dual-core microprocessor and one single-core microprocessor"
 			(at -54.61 -41.91 0)
 			(effects
 				(font
@@ -14550,7 +14550,7 @@
 			(pin bidirectional line
 				(at 26.67 44.45 270)
 				(length 2.54)
-				(name "GPIO39"
+				(name "GPIO40"
 					(effects
 						(font
 							(size 1.27 1.27)
