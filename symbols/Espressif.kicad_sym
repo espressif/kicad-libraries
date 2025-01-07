@@ -15002,7 +15002,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -57.15 19.05 0)
+				(at -57.15 21.59 0)
 				(length 2.54)
 				(name "GPIO5/ADC"
 					(effects
@@ -15020,7 +15020,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -57.15 21.59 0)
+				(at -57.15 19.05 0)
 				(length 2.54)
 				(name "GPIO6/ADC"
 					(effects
