@@ -4582,7 +4582,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 27.94 -44.45 180)
+				(at 22.86 -44.45 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -4600,7 +4600,7 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 -41.91 180)
+				(at 22.86 -41.91 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4618,7 +4618,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -39.37 180)
+				(at 22.86 -39.37 180)
 				(length 2.54)
 				(name "GPIO13/USB_D-"
 					(effects
@@ -4637,7 +4637,7 @@
 				(alternate "GPIO12" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -36.83 180)
+				(at 22.86 -36.83 180)
 				(length 2.54)
 				(name "GPIO14/USB_D+"
 					(effects
@@ -4656,7 +4656,7 @@
 				(alternate "GPIO13" bidirectional line)
 			)
 			(pin power_in line
-				(at 27.94 -34.29 180)
+				(at 22.86 -34.29 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4674,7 +4674,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -31.75 180)
+				(at 22.86 -31.75 180)
 				(length 2.54)
 				(name "GPIO28"
 					(effects
@@ -4692,7 +4692,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 27.94 -29.21 180)
+				(at 22.86 -29.21 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -4712,7 +4712,7 @@
 				(alternate "GPIO18/SDIO_CMD" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -26.67 180)
+				(at 22.86 -26.67 180)
 				(length 2.54)
 				(name "GPIO8"
 					(effects
@@ -4732,7 +4732,7 @@
 				(alternate "GPIO19/SDIO_CLK" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -24.13 180)
+				(at 22.86 -24.13 180)
 				(length 2.54)
 				(name "GPIO9"
 					(effects
@@ -4752,7 +4752,7 @@
 				(alternate "GPIO20/SDIO_DATA0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -21.59 180)
+				(at 22.86 -21.59 180)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -4772,7 +4772,7 @@
 				(alternate "GPIO21/SDIO_DATA1" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -19.05 180)
+				(at 22.86 -19.05 180)
 				(length 2.54)
 				(name "GPIO15"
 					(effects
@@ -4791,7 +4791,7 @@
 				(alternate "GPIO22/SDIO_DATA2" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -16.51 180)
+				(at 22.86 -16.51 180)
 				(length 2.54)
 				(name "GPIO23"
 					(effects
@@ -4810,7 +4810,7 @@
 				(alternate "GPIO23/SDIO_DATA3" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -13.97 180)
+				(at 22.86 -13.97 180)
 				(length 2.54)
 				(name "GPIO24"
 					(effects
@@ -4851,7 +4851,7 @@
 				(alternate "GPIO4/LP_UART_RXD" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -11.43 180)
+				(at 22.86 -11.43 180)
 				(length 2.54)
 				(name "GPIO12/U0RXD"
 					(effects
@@ -4871,7 +4871,7 @@
 				(alternate "GPIO17/FSPICS1" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 27.94 -8.89 180)
+				(at 22.86 -8.89 180)
 				(length 2.54)
 				(name "GPIO11/U0TXD"
 					(effects
@@ -4891,7 +4891,7 @@
 				(alternate "GPIO16/FSPICS0" bidirectional line)
 			)
 			(pin power_in line
-				(at 27.94 -6.35 180)
+				(at 22.86 -6.35 180)
 				(length 2.54)
 				(name "GND"
 					(effects
