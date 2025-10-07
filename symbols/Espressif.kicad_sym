@@ -13995,7 +13995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:Espressif:ESP32-P4"
+		(property "Footprint" "PCM_Espressif:ESP32-P4"
 			(at -54.61 -41.91 0)
 			(effects
 				(font
