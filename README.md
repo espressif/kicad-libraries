@@ -7,7 +7,7 @@
 
 > Notice: A major update from version 1.0.1 was made to be compliant to the [KLC](https://klc.kicad.org/). Please consider updating your library and checking the symbols and footprints.
 
-> From the version 2.0.0, the library instalation process is done by the PCM.
+> From the version 2.0.0, the library installation process is done by the PCM.
 
 This repository contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.
 
@@ -53,7 +53,7 @@ The following SoC are included in this library
 |ESP32-H2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2_datasheet_en.pdf)      |
 |ESP8286            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
 |ESP8285            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
-|ESP32-P4           |Yes     |Yes        |[Datasheet](https://www.espressif.com/)    |
+|ESP32-P4           |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-p4_datasheet_en.pdf)                              |
 
 ### Modules
 
@@ -86,7 +86,7 @@ The following SoC are included in this library
 |ESP8685-WROOM-01 |No      |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-01_datasheet_en.pdf)                   |
 |ESP8685-WROOM-03 |No      |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-03_datasheet_en.pdf)                   |
 |ESP8685-WROOM-04 |No      |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-04_datasheet_en.pdf)                   |
-|ESP8685-WROOM-05 |No      |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-05_datasheet_en.pdf)                   |
+|ESP8685-WROOM-05 |No      |Yes         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-05_datasheet_en.pdf)                   |
 |ESP8685-WROOM-06 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf)                   |
 
 ### Development Boards
@@ -105,7 +105,7 @@ The following SoC are included in this library
 
 ## Manual Installation - PCM
 
-The Espressif KiCad library is distributed via the Pluguin and Content Manager (PCM) and the installation is done automatically.
+The Espressif KiCad library is distributed via the Plug-in and Content Manager (PCM) and the installation is done automatically.
 
 To install the library, you need to download the **[espressif-kicad-addon.zip](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)** file from the latest release. For legacy support, please visit the legacy branch and follow the instructions from there.
 
