@@ -5179,9 +5179,9 @@
 		)
 		(symbol "ESP32-C5-MINI-1_1_0"
 			(pin passive line
-				(at -29.21 19.685 0)
+				(at 0 -26.67 90)
 				(length 2.54)
-				(name "EN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5949,25 +5949,6 @@
 						)
 					)
 				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -26.67 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "47"
 					(effects
 						(font
@@ -6299,6 +6280,25 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 25.4 -26.67 90)
+				(length 2.54)
+				(hide yes)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 27.305 12.065 180)
 				(length 2.54)
@@ -6380,7 +6380,7 @@
 			(pin bidirectional line
 				(at 27.305 -0.635 180)
 				(length 2.54)
-				(name "GPIO24"
+				(name "GPIO25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6398,7 +6398,7 @@
 			(pin bidirectional line
 				(at 27.305 -3.175 180)
 				(length 2.54)
-				(name "GPIO25"
+				(name "GPIO26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6416,7 +6416,7 @@
 			(pin bidirectional line
 				(at 27.305 -5.715 180)
 				(length 2.54)
-				(name "GPIO26"
+				(name "GPIO27"
 					(effects
 						(font
 							(size 1.27 1.27)
