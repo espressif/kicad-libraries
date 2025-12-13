@@ -516,15 +516,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-C6-WROOM-1.STEP"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/esp32-c5-wroom-1.step"
 		(offset
-			(xyz -8.75 -12.25 0)
+			(xyz -8.75 -13.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

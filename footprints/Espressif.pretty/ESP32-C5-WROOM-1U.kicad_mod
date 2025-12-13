@@ -444,15 +444,15 @@
 		(uuid "eae6d9b8-1a72-412b-aa2f-4b9b05244464")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-C6-WROOM-1.STEP"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/esp32-c5-wroom-1u.step"
 		(offset
-			(xyz -8.75 -9.1 0)
+			(xyz -8.75 -10.6 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
