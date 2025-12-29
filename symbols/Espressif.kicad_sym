@@ -5181,6 +5181,7 @@
 			(pin passive line
 				(at 0 -26.67 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -6475,7 +6476,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-C5-WROOM-1"
-			(at 19.558 -22.606 0)
+			(at 19.558 -21.971 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6523,7 @@
 		(symbol "ESP32-C5-WROOM-1_0_1"
 			(rectangle
 				(start -27.94 22.86)
-				(end 27.94 -20.955)
+				(end 27.94 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6816,7 +6817,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6834,7 +6835,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6853,7 +6854,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7144,7 +7145,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-C5-WROOM-1U"
-			(at 19.558 -22.606 0)
+			(at 19.558 -21.971 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7192,7 @@
 		(symbol "ESP32-C5-WROOM-1U_0_1"
 			(rectangle
 				(start -27.94 22.86)
-				(end 27.94 -20.955)
+				(end 27.94 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -7221,7 +7222,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7240,7 +7241,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7543,7 +7544,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7561,7 +7562,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7580,7 +7581,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -23.495 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
