@@ -86,11 +86,13 @@ The following SoC are included in this library
 |ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-2  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
 |ESP32-H2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
-|ESP8685-WROOM-01 |No      |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-01_datasheet_en.pdf)                   |
-|ESP8685-WROOM-03 |No      |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-03_datasheet_en.pdf)                   |
-|ESP8685-WROOM-04 |No      |No         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-04_datasheet_en.pdf)                   |
+|ESP8684-WROOM-02C  |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
+|ESP8684-WROOM-01UC |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
+|ESP8685-WROOM-01 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-01_datasheet_en.pdf)                   |
+|ESP8685-WROOM-03 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-03_datasheet_en.pdf)                   |
+|ESP8685-WROOM-04 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-04_datasheet_en.pdf)                   |
 |ESP8685-WROOM-05 |No      |Yes         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-05_datasheet_en.pdf)                   |
-|ESP8685-WROOM-06 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf)                   |
+|ESP8685-WROOM-06 |Yes     |Yes         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf)                   |
 
 ### Development Boards
 
@@ -103,6 +105,7 @@ The following SoC are included in this library
 |ESP32-S3-DevKitC  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20220413.pdf) |
 |ESP32-S2-DevKitM  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-DevKitM-1_V1_Schematics.pdf)     |
 |ESP32-C3-DevKitM  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-C3-DEVKITM-1_V1_20200915A.pdf)  |
+|ESP32-C5-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/index.html)     |
 |ESP32-C6-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/_static/esp32-c6-devkitc-1/schematics/esp32-c6-devkitc-1-schematics_v1.2.pdf)     |
 |ESP32-C6-DevKitM-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/_static/esp32-c6-devkitm-1/schematics/esp32-c6-devkitm-1-schematics.pdf)     |
 
