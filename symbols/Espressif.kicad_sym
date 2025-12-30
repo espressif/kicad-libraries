@@ -2283,7 +2283,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -25.4 30.48 0)
+			(at -25.4 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,12 +2292,12 @@
 			)
 		)
 		(property "Value" "ESP32-C3-DevKitM-1"
-			(at -25.4 27.94 0)
+			(at 25.654 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-C3-DevKitM-1"
@@ -2919,7 +2919,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -25.4 30.48 0)
+			(at -25.4 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,12 +2928,12 @@
 			)
 		)
 		(property "Value" "ESP32-C3-MINI-1"
-			(at -25.4 27.94 0)
+			(at 25.4 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-C3-MINI-1"
@@ -2955,7 +2955,7 @@
 			)
 		)
 		(property "Description" "ESP32-C3-MINI-1 family is an ultra-low-power MCU-based SoC solution that supports 2.4 GHz Wi-Fi and Bluetooth®Low Energy (Bluetooth LE)."
-			(at 0 0 0)
+			(at 0 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10034,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -25.4 35.56 0)
+			(at -25.4 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,12 +10043,12 @@
 			)
 		)
 		(property "Value" "ESP32-C6-MINI-1/U"
-			(at -25.4 33.02 0)
+			(at 25.4 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-C6-MINI-1"
@@ -14554,7 +14554,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -33.02 30.48 0)
+			(at -33.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14563,12 +14563,12 @@
 			)
 		)
 		(property "Value" "ESP32-H2-MINI-1"
-			(at -33.02 27.94 0)
+			(at 31.75 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-H2-MINI-1"
@@ -14590,7 +14590,7 @@
 			)
 		)
 		(property "Description" "ESP32-C2-MINI-1 family is an ultra-low-power MCU-based SoC solution that supports Bluetooth®Low Energy (Bluetooth LE), Zigbee 3.0 and Matter"
-			(at 0 0 0)
+			(at 0 -44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14684,7 +14684,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -2.54 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14703,7 +14703,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -5.08 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14722,7 +14722,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -7.62 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14741,7 +14741,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -10.16 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14760,7 +14760,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -12.7 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14779,7 +14779,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -15.24 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14798,7 +14798,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -17.78 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14817,7 +14817,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -20.32 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -14836,7 +14836,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 -13.97 0)
+				(at -33.02 -22.86 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -15623,7 +15623,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -30.48 33.02 0)
+			(at -30.48 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15632,12 +15632,12 @@
 			)
 		)
 		(property "Value" "ESP32-MINI-1"
-			(at -30.48 30.48 0)
+			(at 30.734 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-MINI-1"
@@ -18907,7 +18907,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -33.02 33.02 0)
+			(at -32.512 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18915,7 +18915,7 @@
 			)
 		)
 		(property "Value" "ESP32-PICO-MINI-02"
-			(at -22.86 30.48 0)
+			(at 22.352 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22779,7 +22779,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -43.18 45.72 0)
+			(at -43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22788,12 +22788,12 @@
 			)
 		)
 		(property "Value" "ESP32-S2-DevKitM"
-			(at -43.18 43.18 0)
+			(at 42.926 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-S2-DevKitM"
@@ -23622,7 +23622,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -30.48 45.72 0)
+			(at -30.48 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23631,12 +23631,12 @@
 			)
 		)
 		(property "Value" "ESP32-S2-MINI-1"
-			(at -30.48 43.18 0)
+			(at 30.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-S2-MINI-1"
@@ -30266,7 +30266,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -43.18 43.18 0)
+			(at -42.926 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30275,12 +30275,12 @@
 			)
 		)
 		(property "Value" "ESP32-S3-MINI-1"
-			(at -43.18 40.64 0)
+			(at 42.926 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-S3-MINI-1"
