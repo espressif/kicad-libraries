@@ -7082,7 +7082,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 30.48 -16.51 180)
+				(at 30.48 -12.7 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -7101,7 +7101,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 30.48 -16.51 180)
+				(at 30.48 -15.24 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -7809,7 +7809,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 30.48 -16.51 180)
+				(at 30.48 -12.7 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -7828,7 +7828,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 30.48 -16.51 180)
+				(at 30.48 -15.24 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
