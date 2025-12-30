@@ -375,7 +375,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/esp8684-wroom-02.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/esp8684-wroom-02c.step"
 		(offset
 			(xyz -8.53 -9.575 0)
 		)
