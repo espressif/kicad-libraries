@@ -1,7 +1,6 @@
 # Espressif KiCad Library
 
 [![Stars](https://img.shields.io/github/stars/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/stargazers)
-[![Forks](https://img.shields.io/github/forks/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/network)
 [![Issues](https://img.shields.io/github/issues/espressif/kicad-libraries)](https://github.com/espressif/kicad-libraries/issues)
 ![Downloads](https://img.shields.io/github/downloads/espressif/kicad-libraries/total?style=flat-square)
 
@@ -106,8 +105,8 @@ The following SoC are included in this library
 |ESP32-S2-DevKitM  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-DevKitM-1_V1_Schematics.pdf)     |
 |ESP32-C3-DevKitM  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-C3-DEVKITM-1_V1_20200915A.pdf)  |
 |ESP32-C5-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/index.html)     |
-|ESP32-C6-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/_static/esp32-c6-devkitc-1/schematics/esp32-c6-devkitc-1-schematics_v1.2.pdf)     |
-|ESP32-C6-DevKitM-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/_static/esp32-c6-devkitm-1/schematics/esp32-c6-devkitm-1-schematics.pdf)     |
+|ESP32-C6-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/index.html)     |
+|ESP32-C6-DevKitM-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/index.html)     |
 
 ## Manual Installation - PCM
 
