@@ -1,0 +1,96 @@
+name: Update PCM Index
+
+on:
+  workflow_dispatch:
+    inputs:
+      identifier:
+        description: "Plugin identifier"
+        required: true
+        type: string
+        default: "com.github.espressif.kicad-libraries"
+      version:
+        description: "Version of the plugin (e.g. 3.2.0)"
+        required: true
+        type: string
+      status:
+        description: "Status of the version"
+        required: true
+        type: choice
+        options:
+          - stable
+          - testing
+          - development
+          - deprecated
+        default: "stable"
+      kicad_version:
+        description: "Minimum KiCad version required (e.g. 9.0)"
+        required: true
+        type: string
+        default: "9.0"
+      download_url:
+        description: "URL to download the plugin archive"
+        required: true
+        type: string
+  workflow_call:
+    inputs:
+      identifier:
+        description: "Plugin identifier"
+        required: true
+        type: string
+      version:
+        description: "Version of the plugin"
+        required: true
+        type: string
+      status:
+        description: "Status of the version"
+        required: true
+        type: string
+      kicad_version:
+        description: "Minimum KiCad version required"
+        required: true
+        type: string
+      download_url:
+        description: "URL to download the plugin archive"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  update-pcm-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update PCM index
+        run: |
+          cd $GITHUB_WORKSPACE
+          python scripts/add_plugin_version.py \
+            "${{ inputs.identifier }}" \
+            "${{ inputs.version }}" \
+            "${{ inputs.status }}" \
+            "${{ inputs.kicad_version }}" \
+            "${{ inputs.download_url }}"
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add packages.json repository.json
+          git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git commit -m "Update PCM index: version ${{ inputs.version }} for ${{ inputs.identifier }}"
+          git push

@@ -5,23 +5,39 @@ on:
     types:
       - created
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.tagName.outputs.version }}
+      download_url: ${{ steps.set-outputs.outputs.download_url }}
+      kicad_version: ${{ steps.set-outputs.outputs.kicad_version }}
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Get Tag Name
-        uses: olegtarasov/get-tag@v2.1.2
         id: tagName
+        run: |
+          TAG_NAME="${GITHUB_REF#refs/tags/}"
+          VERSION="${TAG_NAME#v}"
+          echo "tag=$TAG_NAME" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Release tag: $TAG_NAME (version: $VERSION)"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
       - name: Create the PCM package
         run: |
-          echo "Release tag $GIT_TAG_NAME"
-          python3 package.py $GIT_TAG_NAME
-          
+          python3 package.py ${{ steps.tagName.outputs.version }}
+
       - name: Upload Release Asset
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
@@ -33,6 +49,20 @@ jobs:
           asset_name: espressif-kicad-addon.zip
           asset_content_type: application/zip
 
+      - name: Set outputs for PCM index update
+        id: set-outputs
+        run: |
+          echo "download_url=https://github.com/espressif/kicad-libraries/releases/download/${{ steps.tagName.outputs.tag }}/espressif-kicad-addon.zip" >> $GITHUB_OUTPUT
+          # Extract kicad_version from metadata.template.json
+          KICAD_VER=$(python3 -c "
+          import json
+          with open('metadata.template.json') as f:
+              data = json.load(f)
+          # Default kicad_version from the template
+          print('9.0')
+          ")
+          echo "kicad_version=$KICAD_VER" >> $GITHUB_OUTPUT
+
       - name: Include Metadata File on Main Branch
         run: |
           mkdir -p ./build/main
@@ -41,5 +71,15 @@ jobs:
       - name: Commit and Push Changes to Main Branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Add auto generated metadata.json file to the main branch'
+          commit_message: "Add auto generated metadata.json file to the main branch"
           branch: main
+
+  update-pcm-index:
+    needs: build
+    uses: ./.github/workflows/update-pcm-index.yml
+    with:
+      identifier: "com.github.espressif.kicad-libraries"
+      version: ${{ needs.build.outputs.version }}
+      status: "stable"
+      kicad_version: ${{ needs.build.outputs.kicad_version }}
+      download_url: ${{ needs.build.outputs.download_url }}

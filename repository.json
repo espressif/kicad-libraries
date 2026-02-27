@@ -1,0 +1,20 @@
+{
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/main/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "maintainer": {
+        "name": "Pedro Minatel",
+        "contact": {
+            "web": "https://github.com/espressif/kicad-libraries"
+        }
+    },
+    "name": "Espressif KiCad Repository",
+    "packages": {
+        "update_time_utc": "2025-02-27 00:00:00",
+        "update_timestamp": 1740614400,
+        "url": "https://raw.githubusercontent.com/espressif/kicad-libraries/main/packages.json"
+    },
+    "resources": {
+        "update_time_utc": "2025-02-27 00:00:00",
+        "update_timestamp": 1740614400,
+        "url": "https://raw.githubusercontent.com/espressif/kicad-libraries/main/resources.zip"
+    }
+}
