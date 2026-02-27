@@ -45,6 +45,7 @@ The following SoC are included in this library
 |ESP32-PICO-V3      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf) |
 |ESP32-S2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)      |
 |ESP32-S3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)      |
+|ESP32-S3-PICO-1    |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf)                       |
 |ESP8684 (ESP32-C2) |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8684_datasheet_en.pdf)       |
 |ESP32-C3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)      |
 |ESP8685            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685_datasheet_en.pdf)       |
