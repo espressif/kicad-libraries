@@ -54,13 +54,16 @@ jobs:
         run: |
           echo "download_url=https://github.com/espressif/kicad-libraries/releases/download/${{ steps.tagName.outputs.tag }}/espressif-kicad-addon.zip" >> $GITHUB_OUTPUT
           # Extract kicad_version from metadata.template.json
-          KICAD_VER=$(python3 -c "
+          KICAD_VER=$(python3 << 'EOF'
           import json
+          
           with open('metadata.template.json') as f:
               data = json.load(f)
-          # Default kicad_version from the template
-          print('9.0')
-          ")
+          
+          # Use kicad_version from the template, defaulting to '9.0' if missing
+          print(data.get('kicad_version', '9.0'))
+          EOF
+          )
           echo "kicad_version=$KICAD_VER" >> $GITHUB_OUTPUT
 
       - name: Include Metadata File on Main Branch
