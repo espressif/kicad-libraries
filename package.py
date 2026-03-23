@@ -189,8 +189,12 @@ def update_pcm_index(version, zip_size, zip_internal_size, zip_sha256, download_
 
     # Read the current kicad_version from the template
     template = read_template_json_file()
-    # Extract kicad_version from the template's version item pattern
-    kicad_version = "9.0"  # Default
+    # Extract kicad_version from the template's version item pattern, falling back to a default
+    kicad_version = "9.0"
+    if isinstance(template, dict):
+        version_info = template.get("version")
+        if isinstance(version_info, dict):
+            kicad_version = version_info.get("kicad_version", kicad_version)
 
     # Update packages.json
     if os.path.isfile(packages_file):
