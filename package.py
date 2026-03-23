@@ -6,6 +6,8 @@ import os
 import re
 import hashlib
 import sys
+import time
+from datetime import datetime, timezone
 
 directories_to_zip = [
     "3dmodels",
@@ -36,7 +38,7 @@ def create_zip_internal_metadata_json(version: str):
     version_item = {
         "version": version,
         "status": "stable",
-        "kicad_version": "9.0.0"
+        "kicad_version": "9.0"
     }
 
     template["versions"] = [version_item]
@@ -53,7 +55,7 @@ def create_full_metadata_file(version: str, existing_versions: [], zip_size: int
     version_item = {
         "version": version,
         "status": "stable",
-        "kicad_version": "9.0.0",
+        "kicad_version": "9.0",
         "download_sha256": zip_file_sha256,
         "download_size": zip_size,
         "download_url": download_url,
@@ -173,7 +175,83 @@ def package():
     print('Starting to generate metadata.json\n')
     create_full_metadata_file(version, existing_versions, zip_size, zip_internal_size, zip_sha256)
 
+    print('Starting to update PCM index (packages.json & repository.json)\n')
+    download_url = DOWNLOAD_URL.replace("{VERSION}", version).replace("{ZIP_FILE_NAME}", ZIP_FILE_NAME)
+    update_pcm_index(version, zip_size, zip_internal_size, zip_sha256, download_url)
+
     print('All necessary files are generated. Now follow the steps on release-kicad-addons.md')
+
+
+def update_pcm_index(version, zip_size, zip_internal_size, zip_sha256, download_url):
+    """Update packages.json and repository.json for the self-hosted PCM repository."""
+    packages_file = 'packages.json'
+    repository_file = 'repository.json'
+
+    # Read the current kicad_version from the template
+    template = read_template_json_file()
+    # Extract kicad_version from the template's version item pattern, falling back to a default
+    kicad_version = "9.0"
+    if isinstance(template, dict):
+        version_info = template.get("version")
+        if isinstance(version_info, dict):
+            kicad_version = version_info.get("kicad_version", kicad_version)
+
+    # Update packages.json
+    if os.path.isfile(packages_file):
+        with open(packages_file, 'r') as f:
+            packages_data = json.load(f)
+
+        new_version = {
+            "version": version,
+            "status": "stable",
+            "kicad_version": kicad_version,
+            "download_sha256": zip_sha256,
+            "download_size": zip_size,
+            "download_url": download_url,
+            "install_size": zip_internal_size
+        }
+
+        for package in packages_data.get("packages", []):
+            if package["identifier"] == "com.github.espressif.kicad-libraries":
+                # Check if version exists
+                version_updated = False
+                for i, v in enumerate(package.get("versions", [])):
+                    if v["version"] == version:
+                        package["versions"][i] = new_version
+                        version_updated = True
+                        break
+                if not version_updated:
+                    package.setdefault("versions", []).insert(0, new_version)
+                break
+
+        with open(packages_file, 'w') as f:
+            json.dump(packages_data, f, indent=4, ensure_ascii=False)
+            f.write("\n")
+
+        print(f'Updated {packages_file} with version {version}\n')
+    else:
+        print(f'Warning: {packages_file} not found - skipping PCM index update\n')
+
+    # Update repository.json timestamps
+    if os.path.isfile(repository_file):
+        with open(repository_file, 'r') as f:
+            repo_data = json.load(f)
+
+        timestamp = int(time.time())
+        time_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+
+        for section in ["packages", "resources"]:
+            if section in repo_data:
+                repo_data[section]["update_time_utc"] = time_utc
+                repo_data[section]["update_timestamp"] = timestamp
+
+        with open(repository_file, 'w') as f:
+            json.dump(repo_data, f, indent=4, ensure_ascii=False)
+            f.write("\n")
+
+        print(f'Updated {repository_file} timestamps\n')
+    else:
+        print(f'Warning: {repository_file} not found - skipping timestamp update\n')
 
 
 

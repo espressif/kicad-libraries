@@ -113,6 +113,24 @@ The following SoC are included in this library
 
 The Espressif KiCad library is distributed via the Plug-in and Content Manager (PCM) and the installation is done automatically.
 
+### Option 1: Add Espressif PCM Repository (Recommended)
+
+Add the Espressif PCM repository directly to KiCad for automatic updates:
+
+1. Open KiCad
+2. Go to **Plugin and Content Manager** → **Manage**
+3. Click **Add Repository**
+4. Add this repository URL:
+   ```
+   https://raw.githubusercontent.com/espressif/kicad-libraries/main/repository.json
+   ```
+5. Click **OK**
+6. Find **Espressif Library** in the list and click **Install**
+
+This method allows KiCad to notify you of new library versions automatically.
+
+### Option 2: Install from File
+
 To install the library, you need to download the **[espressif-kicad-addon.zip](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)** file from the latest release. For legacy support, please visit the legacy branch and follow the instructions from there.
 
 ## [Download here the latest library!](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)
