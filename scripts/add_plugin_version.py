@@ -78,7 +78,12 @@ def download_and_calculate_metrics(url: str) -> typing.Dict[str, typing.Any]:
         archive_path = temp_path / "plugin.zip"
 
         try:
-            urllib.request.urlretrieve(url, archive_path)
+            with urllib.request.urlopen(url, timeout=60) as response, open(archive_path, "wb") as out_file:
+                while True:
+                    chunk = response.read(65536)
+                    if not chunk:
+                        break
+                    out_file.write(chunk)
         except Exception as e:
             fatal(f"Download error: {e}")
 
