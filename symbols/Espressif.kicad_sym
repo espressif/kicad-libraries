@@ -37099,8 +37099,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 8.89 43.18 270)
+				(at -11.43 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -37117,8 +37118,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 43.18 270)
+				(at -13.97 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -37135,8 +37137,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 3.81 43.18 270)
+				(at -16.51 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -37153,8 +37156,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 43.18 270)
+				(at -19.05 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -37171,8 +37175,9 @@
 				)
 			)
 			(pin no_connect line
-				(at -1.27 43.18 270)
+				(at -21.59 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -37189,8 +37194,9 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 43.18 270)
+				(at -24.13 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -38579,8 +38585,9 @@
 				(alternate "SPI2_WP" bidirectional line)
 			)
 			(pin no_connect line
-				(at -6.35 43.18 270)
+				(at -26.67 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -39147,8 +39154,9 @@
 				(alternate "GPIO59" bidirectional line)
 			)
 			(pin no_connect line
-				(at -8.89 43.18 270)
+				(at -29.21 40.64 270)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
