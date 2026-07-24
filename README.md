@@ -84,6 +84,7 @@ The following SoC are included in this library
 |ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-2  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
+|ESP32-S31-WROOM-3 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s31-wroom-3_datasheet_en.pdf)                  |
 |ESP32-H2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
 |ESP32-H2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
 |ESP8684-WROOM-02C  |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
