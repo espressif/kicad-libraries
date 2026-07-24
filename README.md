@@ -52,7 +52,8 @@ The following SoC are included in this library
 |ESP32-H2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2_datasheet_en.pdf)      |
 |ESP8286            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
 |ESP8285            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
-|ESP32-P4           |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-p4_datasheet_en.pdf)                              |
+|ESP32-P4 (EOL)     |Yes     |Yes        |                                                                                                        |
+|ESP32-P4X          |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-p4_datasheet_en.html)                             |
 
 ### Modules
 
