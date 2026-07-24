@@ -5,33 +5,30 @@ on:
     types:
       - created
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Get Tag Name
-        uses: olegtarasov/get-tag@v2.1.2
-        id: tagName
+        uses: actions/checkout@v4
 
       - name: Create the PCM package
+        env:
+          GIT_TAG_NAME: ${{ github.event.release.tag_name }}
         run: |
           echo "Release tag $GIT_TAG_NAME"
           python3 package.py $GIT_TAG_NAME
           
       - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
+        uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./build/espressif-kicad-addon.zip
-          asset_name: espressif-kicad-addon.zip
-          asset_content_type: application/zip
+          files: ./build/espressif-kicad-addon.zip
 
       - name: Include Metadata File on Main Branch
         run: |
