@@ -21304,7 +21304,7 @@
 				)
 				(alternate "USB1P1_P0" bidirectional line)
 			)
-			(pin no_connect line
+			(pin power_in line
 				(at 59.69 -27.94 180)
 				(length 2.54)
 				(name "VDD_HP_1"
@@ -21612,7 +21612,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 59.69 15.24 180)
 				(length 2.54)
 				(name "VDDO_FLASH"
@@ -21630,7 +21630,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 59.69 17.78 180)
 				(length 2.54)
 				(name "VDDO_PSRAM"
@@ -21648,7 +21648,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 59.69 20.32 180)
 				(length 2.54)
 				(name "VDDO_3"
@@ -21666,7 +21666,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 59.69 22.86 180)
 				(length 2.54)
 				(name "VDDO_4"
