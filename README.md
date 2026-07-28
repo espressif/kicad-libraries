@@ -13,12 +13,7 @@ This repository contains the Symbols, Footprint, and 3D Models for the Espressif
 
 * Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
-**The libraries in this repository are intended to be used with KiCad version 8.**
-
-For the KiCad legacy libraries, please use the following branch:
-
-* [KiCad 6](https://github.com/espressif/kicad-libraries/tree/legacy_kicad6)
-* [KiCad 7](https://github.com/espressif/kicad-libraries/tree/legacy_kicad7)
+**The libraries in this repository are intended to be used with KiCad version 10**
 
 Each footprint library is stored as a directory with the .pretty suffix. The footprint files are .kicad_mod files within.
 
