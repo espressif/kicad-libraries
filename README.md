@@ -106,11 +106,26 @@ The following SoC are included in this library
 |ESP32-C6-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/index.html)     |
 |ESP32-C6-DevKitM-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/index.html)     |
 
-## Manual Installation - PCM
+## Installation with KiCad PCM
 
-The Espressif KiCad library is distributed via the Plug-in and Content Manager (PCM) and the installation is done automatically.
+The recommended way to install the Espressif KiCad library is through KiCad's Plugin and Content Manager (PCM).
 
-To install the library, you need to download the **[espressif-kicad-addon.zip](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)** file from the latest release. For legacy support, please visit the legacy branch and follow the instructions from there.
+### Add the Espressif PCM Repository (Recommended)
+
+1. Open KiCad and select **Plugin and Content Manager**.
+2. Click **Manage...**, then **Add Repository**.
+3. Enter the following repository URL:
+   ```
+   https://raw.githubusercontent.com/espressif/kicad-libraries/main/repository.json
+   ```
+4. Confirm the repository and close the repository manager.
+5. Find **Espressif Library** in the PCM package list and click **Install**.
+
+KiCad can then notify you when new versions of the library are available.
+
+### Install from a Downloaded File
+
+Alternatively, download **[espressif-kicad-addon.zip](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)** from the latest release and select **Install from File...** in PCM. For legacy support, visit the legacy branch and follow its instructions.
 
 ## [Download here the latest library!](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)
 
