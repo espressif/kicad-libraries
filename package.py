@@ -211,8 +211,10 @@ def update_pcm_index(version, zip_size, zip_internal_size, zip_sha256, download_
             "install_size": zip_internal_size
         }
 
+        package_found = False
         for package in packages_data.get("packages", []):
             if package["identifier"] == "com.github.espressif.kicad-libraries":
+                package_found = True
                 # Check if version exists
                 version_updated = False
                 for i, v in enumerate(package.get("versions", [])):
@@ -223,6 +225,11 @@ def update_pcm_index(version, zip_size, zip_internal_size, zip_sha256, download_
                 if not version_updated:
                     package.setdefault("versions", []).insert(0, new_version)
                 break
+
+        if not package_found:
+            raise RuntimeError(
+                "Package 'com.github.espressif.kicad-libraries' not found in packages.json"
+            )
 
         with open(packages_file, 'w') as f:
             json.dump(packages_data, f, indent=4, ensure_ascii=False)
