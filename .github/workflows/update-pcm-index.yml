@@ -23,10 +23,10 @@ on:
           - deprecated
         default: "stable"
       kicad_version:
-        description: "Minimum KiCad version required (e.g. 9.0)"
+        description: "Minimum KiCad version required (e.g. 10.0.0)"
         required: true
         type: string
-        default: "9.0"
+        default: "10.0.0"
       download_url:
         description: "URL to download the plugin archive"
         required: true

@@ -19,6 +19,7 @@ directories_to_zip = [
 
 ZIP_FILE_NAME = "espressif-kicad-addon.zip"
 DOWNLOAD_URL = "https://github.com/espressif/kicad-libraries/releases/download/{VERSION}/{ZIP_FILE_NAME}"
+KICAD_VERSION = "10.0.0"
 
 
 def create_json_string(zip_internal_metadata_json: dict):
@@ -38,7 +39,7 @@ def create_zip_internal_metadata_json(version: str):
     version_item = {
         "version": version,
         "status": "stable",
-        "kicad_version": "10.0.0"
+        "kicad_version": KICAD_VERSION
     }
 
     template["versions"] = [version_item]
@@ -55,7 +56,7 @@ def create_full_metadata_file(version: str, existing_versions: [], zip_size: int
     version_item = {
         "version": version,
         "status": "stable",
-        "kicad_version": "10.0.0",
+        "kicad_version": KICAD_VERSION,
         "download_sha256": zip_file_sha256,
         "download_size": zip_size,
         "download_url": download_url,
@@ -187,15 +188,6 @@ def update_pcm_index(version, zip_size, zip_internal_size, zip_sha256, download_
     packages_file = 'packages.json'
     repository_file = 'repository.json'
 
-    # Read the current kicad_version from the template
-    template = read_template_json_file()
-    # Extract kicad_version from the template's version item pattern, falling back to a default
-    kicad_version = "9.0"
-    if isinstance(template, dict):
-        version_info = template.get("version")
-        if isinstance(version_info, dict):
-            kicad_version = version_info.get("kicad_version", kicad_version)
-
     # Update packages.json
     if os.path.isfile(packages_file):
         with open(packages_file, 'r') as f:
@@ -204,7 +196,7 @@ def update_pcm_index(version, zip_size, zip_internal_size, zip_sha256, download_
         new_version = {
             "version": version,
             "status": "stable",
-            "kicad_version": kicad_version,
+            "kicad_version": KICAD_VERSION,
             "download_sha256": zip_sha256,
             "download_size": zip_size,
             "download_url": download_url,

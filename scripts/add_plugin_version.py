@@ -14,7 +14,7 @@ Example:
         com.github.espressif.kicad-libraries \
         3.2.0 \
         stable \
-        9.0 \
+        10.0.0 \
         https://github.com/espressif/kicad-libraries/releases/download/3.2.0/espressif-kicad-addon.zip
 """
 
@@ -60,7 +60,7 @@ def parse_arguments() -> argparse.Namespace:
     )
     parser.add_argument(
         "kicad_version",
-        help="Minimum KiCad version required (e.g. 9.0)",
+        help="Minimum KiCad version required (e.g. 10.0.0)",
     )
     parser.add_argument(
         "download_url",
