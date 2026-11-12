@@ -13,12 +13,7 @@ This repository contains the Symbols, Footprint, and 3D Models for the Espressif
 
 * Notice: The libraries are provided in the hope that they will be useful but without a warranty of any kind.
 
-**The libraries in this repository are intended to be used with KiCad version 8.**
-
-For the KiCad legacy libraries, please use the following branch:
-
-* [KiCad 6](https://github.com/espressif/kicad-libraries/tree/legacy_kicad6)
-* [KiCad 7](https://github.com/espressif/kicad-libraries/tree/legacy_kicad7)
+**The libraries in this repository are intended to be used with KiCad version 10**
 
 Each footprint library is stored as a directory with the .pretty suffix. The footprint files are .kicad_mod files within.
 
@@ -52,7 +47,8 @@ The following SoC are included in this library
 |ESP32-H2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2_datasheet_en.pdf)      |
 |ESP8286            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
 |ESP8285            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
-|ESP32-P4           |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-p4_datasheet_en.pdf)                              |
+|ESP32-P4 (EOL)     |Yes     |Yes        |                                                                                                        |
+|ESP32-P4X          |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-p4_datasheet_en.html)                             |
 
 ### Modules
 
@@ -84,7 +80,9 @@ The following SoC are included in this library
 |ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-2  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
+|ESP32-S31-WROOM-3 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s31-wroom-3_datasheet_en.pdf)                  |
 |ESP32-H2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-H2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
 |ESP8684-WROOM-02C  |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
 |ESP8684-WROOM-01UC |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
 |ESP8685-WROOM-01 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-01_datasheet_en.pdf)                   |
