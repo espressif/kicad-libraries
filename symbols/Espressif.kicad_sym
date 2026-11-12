@@ -39249,7 +39249,7 @@
 				)
 			)
 		)
-		(property "Description" "ESP32-WROOM-DA"
+		(property "Description" "EOL - ESP32-WROOM-DA"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39260,7 +39260,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "ESP32 Dual Antenna DA"
+		(property "ki_keywords" "ESP32 Dual Antenna DA EOL NRND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39320,7 +39320,7 @@
 						)
 					)
 				)
-				(number "43"
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
