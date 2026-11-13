@@ -36917,6 +36917,3172 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "ESP32-S31-WROOM-1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -31.496 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -54.61 -41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Espressif:ESP32-S31-WROOM-1"
+			(at 0.254 -55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html"
+			(at 0 -59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.4 GHz Wi-Fi 6, Bluetooth 5.4 (LE), Bluetooth Classic, Zigbee and Thread (802.15.4) module Built around ESP32-S31 series of SoCs, RISC-V 32-bit dual-core microprocessor 54 GPIOs, rich set of peripherals On-board PCB antenna"
+			(at -0.254 -64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "esp32-s31"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ESP32-S31-WROOM-1_0_0"
+			(pin power_in line
+				(at -34.29 15.24 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -34.29 12.7 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 34.29 -17.78 180)
+				(length 2.54)
+				(name "GPIO60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 34.29 -15.24 180)
+				(length 2.54)
+				(name "GPIO61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -52.07 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -52.07 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 43.18 270)
+				(length 2.54)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-S31-WROOM-1_1_0"
+			(polyline
+				(pts
+					(xy -4.5252 6.8808) (xy -4.7395 6.6576) (xy -4.9415 6.425) (xy -5.131 6.1836) (xy -5.3078 5.9339)
+					(xy -5.4717 5.6763) (xy -5.6225 5.4115) (xy -5.7599 5.1399) (xy -5.8838 4.862) (xy -5.9939 4.5785)
+					(xy -6.0901 4.2896) (xy -6.172 3.9961) (xy -6.2395 3.6984) (xy -6.2924 3.397) (xy -6.3305 3.0925)
+					(xy -6.3535 2.7853) (xy -6.3612 2.476) (xy -6.3535 2.1667) (xy -6.3305 1.8595) (xy -6.2924 1.555)
+					(xy -6.2395 1.2536) (xy -6.172 0.9559) (xy -6.0901 0.6624) (xy -5.9939 0.3736) (xy -5.8838 0.09)
+					(xy -5.7599 -0.1879) (xy -5.6225 -0.4595) (xy -5.4717 -0.7243) (xy -5.3078 -0.9819) (xy -5.131 -1.2316)
+					(xy -4.9415 -1.473) (xy -4.7395 -1.7056) (xy -4.5252 -1.9288) (xy -4.302 -2.143) (xy -4.0694 -2.345)
+					(xy -3.828 -2.5345) (xy -3.5783 -2.7113) (xy -3.3208 -2.8752) (xy -3.0559 -3.026) (xy -2.7843 -3.1635)
+					(xy -2.5065 -3.2874) (xy -2.2229 -3.3975) (xy -1.9341 -3.4936) (xy -1.6406 -3.5756) (xy -1.3428 -3.6431)
+					(xy -1.0415 -3.696) (xy -0.7369 -3.734) (xy -0.4297 -3.757) (xy -0.1204 -3.7647) (xy 0.1889 -3.757)
+					(xy 0.496 -3.734) (xy 0.8006 -3.696) (xy 1.102 -3.6431) (xy 1.3997 -3.5756) (xy 1.6932 -3.4936)
+					(xy 1.982 -3.3975) (xy 2.2656 -3.2874) (xy 2.5435 -3.1635) (xy 2.8151 -3.026) (xy 3.0799 -2.8752)
+					(xy 3.3374 -2.7113) (xy 3.5871 -2.5345) (xy 3.8286 -2.345) (xy 4.0611 -2.143) (xy 4.2843 -1.9288)
+					(xy 4.6426 -2.287) (xy 4.398 -2.5161) (xy 4.1433 -2.7316) (xy 3.8791 -2.9334) (xy 3.6061 -3.1212)
+					(xy 3.3247 -3.2948) (xy 3.0356 -3.454) (xy 2.7394 -3.5985) (xy 2.4365 -3.7281) (xy 2.1276 -3.8426)
+					(xy 1.8132 -3.9417) (xy 1.4939 -4.0253) (xy 1.1704 -4.0931) (xy 0.8431 -4.1448) (xy 0.5126 -4.1803)
+					(xy 0.1795 -4.1994) (xy -0.1557 -4.2017) (xy -0.5004 -4.193) (xy -0.8406 -4.1672) (xy -1.1759 -4.1247)
+					(xy -1.5058 -4.066) (xy -1.83 -3.9914) (xy -2.148 -3.9013) (xy -2.4594 -3.7963) (xy -2.7638 -3.6766)
+					(xy -3.0608 -3.5428) (xy -3.3499 -3.3952) (xy -3.6308 -3.2343) (xy -3.9029 -3.0605) (xy -4.166 -2.8741)
+					(xy -4.4195 -2.6757) (xy -4.663 -2.4655) (xy -4.8962 -2.2442) (xy -5.1186 -2.0119) (xy -5.3298 -1.7693)
+					(xy -5.5294 -1.5167) (xy -5.7169 -1.2545) (xy -5.8919 -0.9831) (xy -6.0541 -0.7029) (xy -6.2029 -0.4145)
+					(xy -6.338 -0.1181) (xy -6.459 0.1858) (xy -6.5654 0.4968) (xy -6.6568 0.8144) (xy -6.7328 1.1382)
+					(xy -6.793 1.4679) (xy -6.837 1.803) (xy -6.8642 2.1431) (xy -6.8744 2.4877) (xy -6.8671 2.8211)
+					(xy -6.8433 3.1523) (xy -6.8032 3.4806) (xy -6.7471 3.8056) (xy -6.6752 4.1266) (xy -6.5877 4.4432)
+					(xy -6.4848 4.7547) (xy -6.3669 5.0606) (xy -6.234 5.3604) (xy -6.0865 5.6534) (xy -5.9246 5.9392)
+					(xy -5.7485 6.2171) (xy -5.5585 6.4866) (xy -5.3547 6.7471) (xy -5.1374 6.9981) (xy -4.9069 7.2391)
+					(xy -4.5252 6.8808)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.6305 -0.1914) (xy -3.5877 -0.1946) (xy -3.5453 -0.1999) (xy -3.5033 -0.2072) (xy -3.4618 -0.2166)
+					(xy -3.4208 -0.2279) (xy -3.3806 -0.2413) (xy -3.341 -0.2565) (xy -3.3022 -0.2737) (xy -3.2643 -0.2928)
+					(xy -3.2274 -0.3137) (xy -3.1914 -0.3364) (xy -3.1565 -0.3609) (xy -3.1228 -0.3872) (xy -3.0902 -0.4152)
+					(xy -3.059 -0.4449) (xy -3.0293 -0.4762) (xy -3.0013 -0.5087) (xy -2.975 -0.5424) (xy -2.9505 -0.5773)
+					(xy -2.9277 -0.6133) (xy -2.9068 -0.6503) (xy -2.8878 -0.6882) (xy -2.8706 -0.7269) (xy -2.8553 -0.7665)
+					(xy -2.842 -0.8068) (xy -2.8306 -0.8477) (xy -2.8213 -0.8892) (xy -2.8139 -0.9312) (xy -2.8087 -0.9737)
+					(xy -2.8055 -1.0165) (xy -2.8044 -1.0596) (xy -2.8069 -1.125) (xy -2.8142 -1.1895) (xy -2.8261 -1.2527)
+					(xy -2.8426 -1.3144) (xy -2.8635 -1.3745) (xy -2.8886 -1.4327) (xy -2.9178 -1.4887) (xy -2.9509 -1.5425)
+					(xy -2.9879 -1.5937) (xy -3.0285 -1.6421) (xy -3.0726 -1.6876) (xy -3.1201 -1.7298) (xy -3.1709 -1.7687)
+					(xy -3.2247 -1.8039) (xy -3.2814 -1.8353) (xy -3.341 -1.8626) (xy -3.4024 -1.8854) (xy -3.4648 -1.9033)
+					(xy -3.5277 -1.9165) (xy -3.5911 -1.9249) (xy -3.6546 -1.9286) (xy -3.7179 -1.9277) (xy -3.7809 -1.9221)
+					(xy -3.8432 -1.9121) (xy -3.9046 -1.8975) (xy -3.9649 -1.8785) (xy -4.0238 -1.8551) (xy -4.081 -1.8274)
+					(xy -4.1364 -1.7954) (xy -4.1895 -1.7592) (xy -4.2402 -1.7188) (xy -4.2883 -1.6742) (xy -4.3328 -1.6262)
+					(xy -4.3732 -1.5754) (xy -4.4095 -1.5223) (xy -4.4415 -1.467) (xy -4.4692 -1.4098) (xy -4.4926 -1.3509)
+					(xy -4.5116 -1.2906) (xy -4.5261 -1.2291) (xy -4.5362 -1.1668) (xy -4.5417 -1.1038) (xy -4.5427 -1.0405)
+					(xy -4.539 -0.977) (xy -4.5305 -0.9137) (xy -4.5174 -0.8507) (xy -4.4995 -0.7884) (xy -4.4767 -0.7269)
+					(xy -4.4635 -0.6968) (xy -4.4493 -0.6674) (xy -4.4341 -0.6386) (xy -4.418 -0.6106) (xy -4.4008 -0.5833)
+					(xy -4.3827 -0.5568) (xy -4.3637 -0.531) (xy -4.3439 -0.5061) (xy -4.3232 -0.4819) (xy -4.3016 -0.4586)
+					(xy -4.2793 -0.4361) (xy -4.2562 -0.4144) (xy -4.2323 -0.3937) (xy -4.2077 -0.3738) (xy -4.1825 -0.3549)
+					(xy -4.1565 -0.3368) (xy -4.13 -0.3198) (xy -4.1028 -0.3037) (xy -4.0751 -0.2886) (xy -4.0467 -0.2745)
+					(xy -4.0179 -0.2614) (xy -3.9886 -0.2494) (xy -3.9588 -0.2384) (xy -3.9285 -0.2285) (xy -3.8978 -0.2197)
+					(xy -3.8668 -0.212) (xy -3.8353 -0.2055) (xy -3.8036 -0.2001) (xy -3.7715 -0.1959) (xy -3.7391 -0.1928)
+					(xy -3.7065 -0.191) (xy -3.6736 -0.1904) (xy -3.6305 -0.1914)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.618 5.0064) (xy -3.5535 5.0042) (xy -3.4891 5.0006) (xy -3.4247 4.9954) (xy -3.3605 4.9888)
+					(xy -3.2964 4.9808) (xy -3.2324 4.9713) (xy -3.1686 4.9603) (xy -2.8758 4.9085) (xy -2.5881 4.844)
+					(xy -2.3057 4.7671) (xy -2.0291 4.6781) (xy -1.7583 4.5773) (xy -1.4937 4.4651) (xy -1.2356 4.3418)
+					(xy -0.9842 4.2078) (xy -0.7399 4.0632) (xy -0.5028 3.9085) (xy -0.2734 3.7439) (xy -0.0517 3.5698)
+					(xy 0.1618 3.3866) (xy 0.3669 3.1944) (xy 0.5634 2.9937) (xy 0.7509 2.7848) (xy 0.9292 2.5679)
+					(xy 1.098 2.3435) (xy 1.257 2.1117) (xy 1.4061 1.873) (xy 1.5447 1.6277) (xy 1.6728 1.376) (xy 1.7901 1.1184)
+					(xy 1.8962 0.855) (xy 1.9909 0.5863) (xy 2.0739 0.3126) (xy 2.1449 0.0341) (xy 2.2037 -0.2487)
+					(xy 2.25 -0.5357) (xy 2.2835 -0.8264) (xy 2.3039 -1.1205) (xy 2.311 -1.4178) (xy 2.3098 -1.5693)
+					(xy 2.305 -1.7206) (xy 2.2965 -1.8717) (xy 2.2844 -2.0225) (xy 2.2686 -2.173) (xy 2.2492 -2.3231)
+					(xy 2.2261 -2.4727) (xy 2.1994 -2.6218) (xy 2.0925 -2.6716) (xy 1.9845 -2.7192) (xy 1.8757 -2.7645)
+					(xy 1.7659 -2.8075) (xy 1.6553 -2.8482) (xy 1.5438 -2.8867) (xy 1.4315 -2.9228) (xy 1.3185 -2.9566)
+					(xy 0.2965 -2.6688) (xy 0.3243 -2.5715) (xy 0.3496 -2.4736) (xy 0.3725 -2.3752) (xy 0.3928 -2.2762)
+					(xy 0.4107 -2.1767) (xy 0.4261 -2.0768) (xy 0.4389 -1.9765) (xy 0.4492 -1.8759) (xy 0.4666 -1.6401)
+					(xy 0.4719 -1.4062) (xy 0.4656 -1.1744) (xy 0.4477 -0.9453) (xy 0.4187 -0.719) (xy 0.3788 -0.4958)
+					(xy 0.3281 -0.2762) (xy 0.267 -0.0603) (xy 0.1958 0.1514) (xy 0.1146 0.3587) (xy 0.0237 0.5613)
+					(xy -0.0765 0.7588) (xy -0.1859 0.9509) (xy -0.3042 1.1374) (xy -0.4311 1.3178) (xy -0.5665 1.492)
+					(xy -0.7099 1.6595) (xy -0.8612 1.8201) (xy -1.0201 1.9734) (xy -1.1864 2.1191) (xy -1.3597 2.257)
+					(xy -1.5399 2.3867) (xy -1.7267 2.5078) (xy -1.9199 2.6201) (xy -2.1191 2.7233) (xy -2.3241 2.817)
+					(xy -2.5346 2.901) (xy -2.7505 2.9748) (xy -2.9714 3.0383) (xy -3.1971 3.0911) (xy -3.4274 3.1328)
+					(xy -3.6619 3.1631) (xy -3.6793 3.1645) (xy -3.6967 3.1651) (xy -3.714 3.1647) (xy -3.7313 3.1635)
+					(xy -3.7484 3.1614) (xy -3.7653 3.1585) (xy -3.7821 3.1548) (xy -3.7987 3.1502) (xy -3.815 3.1448)
+					(xy -3.831 3.1386) (xy -3.8467 3.1316) (xy -3.8621 3.1238) (xy -3.8771 3.1153) (xy -3.8917 3.106)
+					(xy -3.9059 3.0959) (xy -3.9196 3.0851) (xy -3.9328 3.0736) (xy -3.9453 3.0615) (xy -3.9571 3.0488)
+					(xy -3.9683 3.0356) (xy -3.9788 3.0219) (xy -3.9885 3.0078) (xy -3.9975 2.9931) (xy -4.0058 2.9781)
+					(xy -4.0133 2.9626) (xy -4.0201 2.9468) (xy -4.0261 2.9307) (xy -4.0312 2.9143) (xy -4.0356 2.8975)
+					(xy -4.0391 2.8806) (xy -4.0418 2.8634) (xy -4.0436 2.846) (xy -4.0442 2.8285) (xy -4.044 2.8111)
+					(xy -4.0429 2.794) (xy -4.041 2.777) (xy -4.0383 2.7603) (xy -4.0349 2.7438) (xy -4.0307 2.7275)
+					(xy -4.0258 2.7116) (xy -4.0201 2.6959) (xy -4.0137 2.6806) (xy -4.0067 2.6657) (xy -3.999 2.6511)
+					(xy -3.9907 2.6369) (xy -3.9817 2.6231) (xy -3.9721 2.6098) (xy -3.9619 2.5969) (xy -3.9511 2.5845)
+					(xy -3.9398 2.5725) (xy -3.9279 2.5612) (xy -3.9156 2.5503) (xy -3.9027 2.54) (xy -3.8893 2.5303)
+					(xy -3.8754 2.5212) (xy -3.8611 2.5128) (xy -3.8463 2.5049) (xy -3.8312 2.4978) (xy -3.8156 2.4913)
+					(xy -3.7997 2.4856) (xy -3.7833 2.4806) (xy -3.7667 2.4763) (xy -3.7497 2.4728) (xy -3.7324 2.4701)
+					(xy -3.5982 2.4537) (xy -3.4649 2.4326) (xy -3.3328 2.4068) (xy -3.2018 2.3764) (xy -3.0721 2.3415)
+					(xy -2.9438 2.3022) (xy -2.8171 2.2583) (xy -2.6921 2.2101) (xy -2.5688 2.1575) (xy -2.4474 2.1006)
+					(xy -2.3279 2.0394) (xy -2.2106 1.9741) (xy -2.0956 1.9045) (xy -1.9828 1.8309) (xy -1.8726 1.7532)
+					(xy -1.7649 1.6714) (xy -1.5689 1.513) (xy -1.3849 1.3436) (xy -1.2132 1.1639) (xy -1.054 0.9745)
+					(xy -0.9076 0.7762) (xy -0.7744 0.5697) (xy -0.6546 0.3556) (xy -0.5486 0.1346) (xy -0.4567 -0.0926)
+					(xy -0.3791 -0.3254) (xy -0.3162 -0.563) (xy -0.2682 -0.8047) (xy -0.2355 -1.0499) (xy -0.2184 -1.2979)
+					(xy -0.2171 -1.548) (xy -0.232 -1.7996) (xy -0.2379 -1.7702) (xy -0.2474 -1.8582) (xy -0.259 -1.9459)
+					(xy -0.2725 -2.0332) (xy -0.2881 -2.1202) (xy -0.3056 -2.2067) (xy -0.325 -2.2928) (xy -0.3464 -2.3783)
+					(xy -0.3698 -2.4634) (xy -0.3951 -2.5479) (xy -0.4223 -2.6318) (xy -0.4514 -2.7151) (xy -0.4825 -2.7977)
+					(xy -0.5154 -2.8796) (xy -0.5502 -2.9609) (xy -0.5869 -3.0413) (xy -0.6255 -3.121) (xy -0.7594 -3.1109)
+					(xy -0.8929 -3.0974) (xy -1.026 -3.0804) (xy -1.1586 -3.06) (xy -1.2906 -3.0363) (xy -1.422 -3.0092)
+					(xy -1.5527 -2.9787) (xy -1.6827 -2.9448) (xy -2.3874 -2.4925) (xy -2.3483 -2.4299) (xy -2.3116 -2.3661)
+					(xy -2.2773 -2.3011) (xy -2.2455 -2.2351) (xy -2.216 -2.168) (xy -2.189 -2.1) (xy -2.1645 -2.0311)
+					(xy -2.1425 -1.9613) (xy -2.123 -1.8909) (xy -2.106 -1.8197) (xy -2.0916 -1.748) (xy -2.0797 -1.6757)
+					(xy -2.0705 -1.603) (xy -2.0639 -1.5298) (xy -2.0599 -1.4563) (xy -2.0585 -1.3826) (xy -2.0607 -1.2888)
+					(xy -2.0669 -1.196) (xy -2.0773 -1.1043) (xy -2.0916 -1.0137) (xy -2.1099 -0.9244) (xy -2.1319 -0.8364)
+					(xy -2.1577 -0.7499) (xy -2.1872 -0.6649) (xy -2.2203 -0.5816) (xy -2.2568 -0.5001) (xy -2.2967 -0.4204)
+					(xy -2.34 -0.3426) (xy -2.3865 -0.2669) (xy -2.4362 -0.1933) (xy -2.4889 -0.122) (xy -2.5446 -0.0531)
+					(xy -2.6032 0.0134) (xy -2.6646 0.0774) (xy -2.7288 0.1387) (xy -2.7956 0.1972) (xy -2.865 0.253)
+					(xy -2.9368 0.3057) (xy -3.0111 0.3554) (xy -3.0877 0.402) (xy -3.1665 0.4454) (xy -3.2474 0.4853)
+					(xy -3.3304 0.5219) (xy -3.4154 0.5549) (xy -3.5023 0.5843) (xy -3.591 0.6099) (xy -3.6814 0.6316)
+					(xy -3.7735 0.6495) (xy -3.8431 0.6586) (xy -3.9125 0.6687) (xy -3.9818 0.6798) (xy -4.0509 0.6918)
+					(xy -4.1198 0.7048) (xy -4.1886 0.7187) (xy -4.2572 0.7335) (xy -4.3255 0.7493) (xy -4.4547 0.796)
+					(xy -4.5798 0.8502) (xy -4.7006 0.9117) (xy -4.8168 0.9802) (xy -4.9283 1.0555) (xy -5.0346 1.1372)
+					(xy -5.1356 1.225) (xy -5.231 1.3188) (xy -5.3205 1.4182) (xy -5.4038 1.523) (xy -5.4808 1.6328)
+					(xy -5.551 1.7475) (xy -5.6144 1.8666) (xy -5.6705 1.99) (xy -5.7192 2.1174) (xy -5.7601 2.2485)
+					(xy -5.7927 2.3818) (xy -5.8169 2.516) (xy -5.8326 2.6506) (xy -5.8399 2.7854) (xy -5.839 2.9198)
+					(xy -5.8299 3.0536) (xy -5.8126 3.1864) (xy -5.7874 3.3178) (xy -5.7541 3.4473) (xy -5.7131 3.5748)
+					(xy -5.6642 3.6997) (xy -5.6077 3.8217) (xy -5.5436 3.9404) (xy -5.4719 4.0555) (xy -5.3928 4.1665)
+					(xy -5.3063 4.2732) (xy -5.2502 4.3347) (xy -5.192 4.394) (xy -5.1318 4.451) (xy -5.0696 4.5056)
+					(xy -5.0055 4.5578) (xy -4.9396 4.6075) (xy -4.8719 4.6548) (xy -4.8026 4.6995) (xy -4.7316 4.7416)
+					(xy -4.6592 4.7811) (xy -4.5852 4.8179) (xy -4.5099 4.852) (xy -4.4333 4.8833) (xy -4.3555 4.9119)
+					(xy -4.2765 4.9375) (xy -4.1963 4.9603) (xy -4.1325 4.9713) (xy -4.0686 4.9808) (xy -4.0044 4.9888)
+					(xy -3.9402 4.9954) (xy -3.8758 5.0006) (xy -3.8114 5.0042) (xy -3.7469 5.0064) (xy -3.6824 5.0071)
+					(xy -3.618 5.0064)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.4888 7.4191) (xy -2.1257 7.3438) (xy -1.7681 7.2542) (xy -1.4164 7.1507) (xy -1.071 7.0335)
+					(xy -0.732 6.903) (xy -0.3999 6.7595) (xy -0.075 6.6032) (xy 0.2426 6.4346) (xy 0.5523 6.2539)
+					(xy 0.854 6.0614) (xy 1.1474 5.8574) (xy 1.7076 5.4162) (xy 2.2307 4.9328) (xy 2.714 4.4098) (xy 3.1552 3.8495)
+					(xy 3.3592 3.5562) (xy 3.5517 3.2545) (xy 3.7324 2.9447) (xy 3.9011 2.6272) (xy 4.0573 2.3022)
+					(xy 4.2008 1.9701) (xy 4.3313 1.6312) (xy 4.4485 1.2857) (xy 4.552 0.934) (xy 4.6416 0.5765) (xy 4.7169 0.2133)
+					(xy 4.7777 -0.1551) (xy 4.682 -0.3247) (xy 4.581 -0.4909) (xy 4.4747 -0.6537) (xy 4.3632 -0.813)
+					(xy 4.2466 -0.9686) (xy 4.1251 -1.1203) (xy 3.9986 -1.2682) (xy 3.8674 -1.412) (xy 3.0275 -1.412)
+					(xy 3.0176 -1.0445) (xy 2.9895 -0.6819) (xy 2.9436 -0.3245) (xy 2.8803 0.0271) (xy 2.8001 0.3725)
+					(xy 2.7035 0.7113) (xy 2.5908 1.0431) (xy 2.4626 1.3673) (xy 2.3193 1.6835) (xy 2.1612 1.9913)
+					(xy 1.989 2.2903) (xy 1.803 2.58) (xy 1.6037 2.8599) (xy 1.3915 3.1296) (xy 1.1669 3.3886) (xy 0.9303 3.6366)
+					(xy 0.6821 3.873) (xy 0.4229 4.0974) (xy 0.153 4.3094) (xy -0.1271 4.5085) (xy -0.4169 4.6942)
+					(xy -0.716 4.8662) (xy -1.0239 5.024) (xy -1.3403 5.167) (xy -1.6646 5.295) (xy -1.9964 5.4074)
+					(xy -2.3353 5.5037) (xy -2.6808 5.5836) (xy -3.0325 5.6466) (xy -3.3899 5.6923) (xy -3.7525 5.7201)
+					(xy -4.12 5.7297) (xy -4.12 6.5695) (xy -3.9763 6.7019) (xy -3.8282 6.8291) (xy -3.676 6.9511)
+					(xy -3.5198 7.0679) (xy -3.3596 7.1792) (xy -3.1958 7.2851) (xy -3.0283 7.3853) (xy -2.8573 7.4798)
+					(xy -2.4888 7.4191)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.0716 8.1259) (xy 0.3596 8.1054) (xy 0.6435 8.0707) (xy 0.9229 8.0221) (xy 1.1975 7.96) (xy 1.4668 7.8848)
+					(xy 1.7305 7.7967) (xy 1.9883 7.6962) (xy 2.2398 7.5837) (xy 2.4847 7.4594) (xy 2.7225 7.3237)
+					(xy 2.953 7.177) (xy 3.1757 7.0197) (xy 3.3903 6.8521) (xy 3.5964 6.6745) (xy 3.7938 6.4874) (xy 3.9819 6.291)
+					(xy 4.1606 6.0858) (xy 4.3293 5.872) (xy 4.4878 5.6501) (xy 4.6357 5.4204) (xy 4.7726 5.1833) (xy 4.8981 4.9391)
+					(xy 5.012 4.6882) (xy 5.1138 4.4309) (xy 5.2032 4.1676) (xy 5.2799 3.8987) (xy 5.3434 3.6245) (xy 5.3934 3.3453)
+					(xy 5.4296 3.0616) (xy 5.4516 2.7737) (xy 5.459 2.4819) (xy 5.4548 2.3573) (xy 5.4517 2.2903) (xy 5.4473 2.2324)
+					(xy 5.4417 2.1805) (xy 5.4349 2.1319) (xy 5.4268 2.0837) (xy 5.4173 2.0329) (xy 5.3943 1.9122)
+					(xy 5.0185 1.7771) (xy 4.8209 2.2921) (xy 4.5958 2.7922) (xy 4.3441 3.2765) (xy 4.0667 3.7441)
+					(xy 3.7645 4.1942) (xy 3.4385 4.6258) (xy 3.0894 5.038) (xy 2.7183 5.4299) (xy 2.326 5.8007) (xy 1.9135 6.1493)
+					(xy 1.4815 6.4749) (xy 1.0312 6.7767) (xy 0.5632 7.0536) (xy 0.0787 7.3048) (xy -0.4216 7.5294)
+					(xy -0.9368 7.7265) (xy -0.8076 8.1024) (xy -0.7349 8.1121) (xy -0.6621 8.1194) (xy -0.5892 8.1246)
+					(xy -0.5161 8.1281) (xy -0.4428 8.1302) (xy -0.369 8.1313) (xy -0.2203 8.1317) (xy 0.0716 8.1259)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -52.07 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 10.16 0)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA19_OUT" bidirectional line)
+				(alternate "LP_GPIO2" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT2" bidirectional line)
+				(alternate "LP_SPI_CK" bidirectional line)
+				(alternate "LP_UART_DTRN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 7.62 0)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA20_OUT" bidirectional line)
+				(alternate "LP_GPIO3" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT3" bidirectional line)
+				(alternate "LP_SPI_CS" bidirectional line)
+				(alternate "LP_UART_DSRN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 5.08 0)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA21_OUT" bidirectional line)
+				(alternate "LP_GPIO4" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT4" bidirectional line)
+				(alternate "LP_SPI_D" bidirectional line)
+				(alternate "LP_UART_RTSN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 2.54 0)
+				(length 2.54)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA22_OUT" bidirectional line)
+				(alternate "LP_GPIO5" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT5" bidirectional line)
+				(alternate "LP_SPI_Q" bidirectional line)
+				(alternate "LP_UART_CTSN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 0 0)
+				(length 2.54)
+				(name "GPIO0/XTAL_32K_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LP_GPIO0" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT0" bidirectional line)
+				(alternate "XTAL_32K_N" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -2.54 0)
+				(length 2.54)
+				(name "GPIO1/XTAL_32K_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LP_GPIO1" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT1" bidirectional line)
+				(alternate "XTAL_32K_P" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -5.08 0)
+				(length 2.54)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LP_GPIO6" bidirectional line)
+				(alternate "LP_I2C_SCL" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT6" bidirectional line)
+				(alternate "LP_UART_TXD" bidirectional line)
+				(alternate "TOUCH_CH0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -7.62 0)
+				(length 2.54)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA23_OUT" bidirectional line)
+				(alternate "LP_GPIO7" bidirectional line)
+				(alternate "LP_I2C_SDA" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT7" bidirectional line)
+				(alternate "LP_UART_RXD" bidirectional line)
+				(alternate "TOUCH_CH1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -10.16 0)
+				(length 2.54)
+				(name "GPIO35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA14_OUT" bidirectional line)
+				(alternate "REF_GMAC_CLK" bidirectional line)
+				(alternate "SD2_CDATA0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -12.7 0)
+				(length 2.54)
+				(name "GPIO33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA12_OUT" output line)
+				(alternate "USB1P1_N0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -15.24 0)
+				(length 2.54)
+				(name "GPIO34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA13_OUT" output line)
+				(alternate "USB1P1_P0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -17.78 0)
+				(length 2.54)
+				(name "SDIO_DATA0/GPIO20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_CK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -11.43 -52.07 90)
+				(length 2.54)
+				(name "SDIO_DATA1/GPIO21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_D" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -8.89 -52.07 90)
+				(length 2.54)
+				(name "SDIO_DATA2/GPIO22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_Q" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -6.35 -52.07 90)
+				(length 2.54)
+				(name "SDIO_DATA3/GPIO23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_CS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 -52.07 90)
+				(length 2.54)
+				(name "SDIO_CLK/GPIO24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_HOLD" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -1.27 -52.07 90)
+				(length 2.54)
+				(name "SDIO_CMD/GPIO25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_WP" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 1.27 -52.07 90)
+				(length 2.54)
+				(name "GPIO36*"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA15_OUT" bidirectional line)
+				(alternate "SD2_CDATA1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 3.81 -52.07 90)
+				(length 2.54)
+				(name "GPIO37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA16_OUT" bidirectional line)
+				(alternate "PAD_COMP0" bidirectional line)
+				(alternate "SD2_CDATA2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 6.35 -52.07 90)
+				(length 2.54)
+				(name "GPIO38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA17_OUT" bidirectional line)
+				(alternate "PAD_COMP1" bidirectional line)
+				(alternate "SD2_CDATA3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 8.89 -52.07 90)
+				(length 2.54)
+				(name "GPIO39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA18_OUT" bidirectional line)
+				(alternate "PAD_COMP2" bidirectional line)
+				(alternate "SD2_CCLK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 11.43 -52.07 90)
+				(length 2.54)
+				(name "GPIO40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_PCLK" bidirectional line)
+				(alternate "PAD_COMP3" bidirectional line)
+				(alternate "SD2_CCMD" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -12.7 180)
+				(length 2.54)
+				(name "GPIO42/ADC1_CH0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH0_N" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -10.16 180)
+				(length 2.54)
+				(name "GPIO43/ADC1_CH0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH0_P" bidirectional line)
+				(alternate "LCD_H_ENABLE" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -7.62 180)
+				(length 2.54)
+				(name "GPIO44/ADC1_CH1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH1_N" bidirectional line)
+				(alternate "LCD_H_SYNC" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -5.08 180)
+				(length 2.54)
+				(name "GPIO45/ADC1_CH1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH1_P" bidirectional line)
+				(alternate "LCD_V_SYNC" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -2.54 180)
+				(length 2.54)
+				(name "GPIO46/ADC1_CH2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH2_N" bidirectional line)
+				(alternate "CAM_DATA0_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 0 180)
+				(length 2.54)
+				(name "GPIO47/ADC1_CH2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH2_P" bidirectional line)
+				(alternate "CAM_DATA1_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 2.54 180)
+				(length 2.54)
+				(name "MTDO/GPIO54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH2_N" bidirectional line)
+				(alternate "CAM_PCLK" bidirectional line)
+				(alternate "GPIO54" bidirectional line)
+				(alternate "SPI2_D" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 5.08 180)
+				(length 2.54)
+				(name "MTCK/GPIO55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH2_P" bidirectional line)
+				(alternate "CAM_XCLK" bidirectional line)
+				(alternate "GPIO55" bidirectional line)
+				(alternate "SPI2_Q" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 7.62 180)
+				(length 2.54)
+				(name "UART0_RXD/GPIO59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GPIO59" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 10.16 180)
+				(length 2.54)
+				(name "UART0_TXD/GPIO58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GPIO58" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 12.7 180)
+				(length 2.54)
+				(name "MTDI/GPIO56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH3_N" bidirectional line)
+				(alternate "CAM_V_SYNC" bidirectional line)
+				(alternate "GPIO56" bidirectional line)
+				(alternate "SPI2_HOLD" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 15.24 180)
+				(length 2.54)
+				(name "MTMS/GPIO57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH3_P" bidirectional line)
+				(alternate "CAM_H_SYNC" bidirectional line)
+				(alternate "GPIO57" bidirectional line)
+				(alternate "SPI2_WP" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 24.13 43.18 270)
+				(length 2.54)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD0" bidirectional line)
+				(alternate "LCD_DATA0_OUT" bidirectional line)
+				(alternate "TOUCH_CH2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 21.59 43.18 270)
+				(length 2.54)
+				(name "GPIO9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD1" bidirectional line)
+				(alternate "LCD_DATA1_OUT" bidirectional line)
+				(alternate "SPI2_HOLD" bidirectional line)
+				(alternate "TOUCH_CH3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 19.05 43.18 270)
+				(length 2.54)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD2" bidirectional line)
+				(alternate "LCD_DATA2_OUT" bidirectional line)
+				(alternate "SPI2_CS" bidirectional line)
+				(alternate "TOUCH_CH4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 16.51 43.18 270)
+				(length 2.54)
+				(name "GPIO11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD3" bidirectional line)
+				(alternate "LCD_DATA3_OUT" bidirectional line)
+				(alternate "SPI2_D" bidirectional line)
+				(alternate "TOUCH_CH5" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.97 43.18 270)
+				(length 2.54)
+				(name "GPIO12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXEN" bidirectional line)
+				(alternate "LCD_DATA4_OUT" bidirectional line)
+				(alternate "SPI2_CK" bidirectional line)
+				(alternate "TOUCH_CH6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 11.43 43.18 270)
+				(length 2.54)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_RMII_CLK" bidirectional line)
+				(alternate "LCD_DATA5_OUT" bidirectional line)
+				(alternate "SPI2_Q" bidirectional line)
+				(alternate "TOUCH_CH7" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 8.89 43.18 270)
+				(length 2.54)
+				(name "GPIO14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_RX_CLK" bidirectional line)
+				(alternate "LCD_DATA6_OUT" bidirectional line)
+				(alternate "SPI2_WP" bidirectional line)
+				(alternate "TOUCH_CH8" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 6.35 43.18 270)
+				(length 2.54)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXDV" bidirectional line)
+				(alternate "LCD_DATA7_OUT" bidirectional line)
+				(alternate "SPI2_IO4" bidirectional line)
+				(alternate "TOUCH_CH9" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 3.81 43.18 270)
+				(length 2.54)
+				(name "GPIO16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD3" bidirectional line)
+				(alternate "LCD_DATA8_OUT" bidirectional line)
+				(alternate "SPI2_IO5" bidirectional line)
+				(alternate "TOUCH_CH10" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 1.27 43.18 270)
+				(length 2.54)
+				(name "GPIO17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD2" bidirectional line)
+				(alternate "LCD_DATA9_OUT" bidirectional line)
+				(alternate "SPI2_IO6" bidirectional line)
+				(alternate "TOUCH_CH11" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -1.27 43.18 270)
+				(length 2.54)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD1" bidirectional line)
+				(alternate "LCD_DATA10_OUT" bidirectional line)
+				(alternate "SPI2_IO7" bidirectional line)
+				(alternate "TOUCH_CH12" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 43.18 270)
+				(length 2.54)
+				(name "GPIO19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD0" bidirectional line)
+				(alternate "LCD_DATA11_OUT" bidirectional line)
+				(alternate "SPI2_DQS" bidirectional line)
+				(alternate "TOUCH_CH13" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -8.89 43.18 270)
+				(length 2.54)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -11.43 43.18 270)
+				(length 2.54)
+				(name "GPIO48/ADC1_CH3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH3_N" bidirectional line)
+				(alternate "CAM_DATA2_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.97 43.18 270)
+				(length 2.54)
+				(name "GPIO49/ADC1_CH3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH3_P" bidirectional line)
+				(alternate "CAM_DATA3_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -16.51 43.18 270)
+				(length 2.54)
+				(name "GPIO50/ADC2_CH0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH0_N" bidirectional line)
+				(alternate "CAM_DATA4_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -19.05 43.18 270)
+				(length 2.54)
+				(name "GPIO51/ADC2_CH0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH0_P" bidirectional line)
+				(alternate "CAM_DATA5_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -21.59 43.18 270)
+				(length 2.54)
+				(name "GPIO52/ADC2_CH1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH1_N" bidirectional line)
+				(alternate "CAM_DATA6_IN" bidirectional line)
+				(alternate "SPI2_CS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -24.13 43.18 270)
+				(length 2.54)
+				(name "GPIO53/ADC2_CH1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH1_P" bidirectional line)
+				(alternate "CAM_DATA7_IN" bidirectional line)
+				(alternate "SPI2_CK" bidirectional line)
+			)
+		)
+		(symbol "ESP32-S31-WROOM-1_1_1"
+			(rectangle
+				(start -31.75 40.64)
+				(end 31.75 -49.53)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "ESP32-S31-WROOM-1"
+				(at 0.254 -23.622 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ESP32-S31-WROOM-1U"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -31.496 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -54.61 -41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Espressif:ESP32-S31-WROOM-1U"
+			(at 0.254 -55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html"
+			(at 0 -59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.4 GHz Wi-Fi 6, Bluetooth 5.4 (LE), Bluetooth Classic, Zigbee and Thread (802.15.4) module Built around ESP32-S31 series of SoCs, RISC-V 32-bit dual-core microprocessor 54 GPIOs, rich set of peripherals On-board PCB antenna"
+			(at -0.254 -64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "esp32-s31"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ESP32-S31-WROOM-1U_0_0"
+			(pin power_in line
+				(at -34.29 15.24 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -34.29 12.7 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 34.29 -17.78 180)
+				(length 2.54)
+				(name "GPIO60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 34.29 -15.24 180)
+				(length 2.54)
+				(name "GPIO61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -52.07 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -52.07 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 43.18 270)
+				(length 2.54)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-S31-WROOM-1U_1_0"
+			(polyline
+				(pts
+					(xy -4.5252 6.8808) (xy -4.7395 6.6576) (xy -4.9415 6.425) (xy -5.131 6.1836) (xy -5.3078 5.9339)
+					(xy -5.4717 5.6763) (xy -5.6225 5.4115) (xy -5.7599 5.1399) (xy -5.8838 4.862) (xy -5.9939 4.5785)
+					(xy -6.0901 4.2896) (xy -6.172 3.9961) (xy -6.2395 3.6984) (xy -6.2924 3.397) (xy -6.3305 3.0925)
+					(xy -6.3535 2.7853) (xy -6.3612 2.476) (xy -6.3535 2.1667) (xy -6.3305 1.8595) (xy -6.2924 1.555)
+					(xy -6.2395 1.2536) (xy -6.172 0.9559) (xy -6.0901 0.6624) (xy -5.9939 0.3736) (xy -5.8838 0.09)
+					(xy -5.7599 -0.1879) (xy -5.6225 -0.4595) (xy -5.4717 -0.7243) (xy -5.3078 -0.9819) (xy -5.131 -1.2316)
+					(xy -4.9415 -1.473) (xy -4.7395 -1.7056) (xy -4.5252 -1.9288) (xy -4.302 -2.143) (xy -4.0694 -2.345)
+					(xy -3.828 -2.5345) (xy -3.5783 -2.7113) (xy -3.3208 -2.8752) (xy -3.0559 -3.026) (xy -2.7843 -3.1635)
+					(xy -2.5065 -3.2874) (xy -2.2229 -3.3975) (xy -1.9341 -3.4936) (xy -1.6406 -3.5756) (xy -1.3428 -3.6431)
+					(xy -1.0415 -3.696) (xy -0.7369 -3.734) (xy -0.4297 -3.757) (xy -0.1204 -3.7647) (xy 0.1889 -3.757)
+					(xy 0.496 -3.734) (xy 0.8006 -3.696) (xy 1.102 -3.6431) (xy 1.3997 -3.5756) (xy 1.6932 -3.4936)
+					(xy 1.982 -3.3975) (xy 2.2656 -3.2874) (xy 2.5435 -3.1635) (xy 2.8151 -3.026) (xy 3.0799 -2.8752)
+					(xy 3.3374 -2.7113) (xy 3.5871 -2.5345) (xy 3.8286 -2.345) (xy 4.0611 -2.143) (xy 4.2843 -1.9288)
+					(xy 4.6426 -2.287) (xy 4.398 -2.5161) (xy 4.1433 -2.7316) (xy 3.8791 -2.9334) (xy 3.6061 -3.1212)
+					(xy 3.3247 -3.2948) (xy 3.0356 -3.454) (xy 2.7394 -3.5985) (xy 2.4365 -3.7281) (xy 2.1276 -3.8426)
+					(xy 1.8132 -3.9417) (xy 1.4939 -4.0253) (xy 1.1704 -4.0931) (xy 0.8431 -4.1448) (xy 0.5126 -4.1803)
+					(xy 0.1795 -4.1994) (xy -0.1557 -4.2017) (xy -0.5004 -4.193) (xy -0.8406 -4.1672) (xy -1.1759 -4.1247)
+					(xy -1.5058 -4.066) (xy -1.83 -3.9914) (xy -2.148 -3.9013) (xy -2.4594 -3.7963) (xy -2.7638 -3.6766)
+					(xy -3.0608 -3.5428) (xy -3.3499 -3.3952) (xy -3.6308 -3.2343) (xy -3.9029 -3.0605) (xy -4.166 -2.8741)
+					(xy -4.4195 -2.6757) (xy -4.663 -2.4655) (xy -4.8962 -2.2442) (xy -5.1186 -2.0119) (xy -5.3298 -1.7693)
+					(xy -5.5294 -1.5167) (xy -5.7169 -1.2545) (xy -5.8919 -0.9831) (xy -6.0541 -0.7029) (xy -6.2029 -0.4145)
+					(xy -6.338 -0.1181) (xy -6.459 0.1858) (xy -6.5654 0.4968) (xy -6.6568 0.8144) (xy -6.7328 1.1382)
+					(xy -6.793 1.4679) (xy -6.837 1.803) (xy -6.8642 2.1431) (xy -6.8744 2.4877) (xy -6.8671 2.8211)
+					(xy -6.8433 3.1523) (xy -6.8032 3.4806) (xy -6.7471 3.8056) (xy -6.6752 4.1266) (xy -6.5877 4.4432)
+					(xy -6.4848 4.7547) (xy -6.3669 5.0606) (xy -6.234 5.3604) (xy -6.0865 5.6534) (xy -5.9246 5.9392)
+					(xy -5.7485 6.2171) (xy -5.5585 6.4866) (xy -5.3547 6.7471) (xy -5.1374 6.9981) (xy -4.9069 7.2391)
+					(xy -4.5252 6.8808)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.6305 -0.1914) (xy -3.5877 -0.1946) (xy -3.5453 -0.1999) (xy -3.5033 -0.2072) (xy -3.4618 -0.2166)
+					(xy -3.4208 -0.2279) (xy -3.3806 -0.2413) (xy -3.341 -0.2565) (xy -3.3022 -0.2737) (xy -3.2643 -0.2928)
+					(xy -3.2274 -0.3137) (xy -3.1914 -0.3364) (xy -3.1565 -0.3609) (xy -3.1228 -0.3872) (xy -3.0902 -0.4152)
+					(xy -3.059 -0.4449) (xy -3.0293 -0.4762) (xy -3.0013 -0.5087) (xy -2.975 -0.5424) (xy -2.9505 -0.5773)
+					(xy -2.9277 -0.6133) (xy -2.9068 -0.6503) (xy -2.8878 -0.6882) (xy -2.8706 -0.7269) (xy -2.8553 -0.7665)
+					(xy -2.842 -0.8068) (xy -2.8306 -0.8477) (xy -2.8213 -0.8892) (xy -2.8139 -0.9312) (xy -2.8087 -0.9737)
+					(xy -2.8055 -1.0165) (xy -2.8044 -1.0596) (xy -2.8069 -1.125) (xy -2.8142 -1.1895) (xy -2.8261 -1.2527)
+					(xy -2.8426 -1.3144) (xy -2.8635 -1.3745) (xy -2.8886 -1.4327) (xy -2.9178 -1.4887) (xy -2.9509 -1.5425)
+					(xy -2.9879 -1.5937) (xy -3.0285 -1.6421) (xy -3.0726 -1.6876) (xy -3.1201 -1.7298) (xy -3.1709 -1.7687)
+					(xy -3.2247 -1.8039) (xy -3.2814 -1.8353) (xy -3.341 -1.8626) (xy -3.4024 -1.8854) (xy -3.4648 -1.9033)
+					(xy -3.5277 -1.9165) (xy -3.5911 -1.9249) (xy -3.6546 -1.9286) (xy -3.7179 -1.9277) (xy -3.7809 -1.9221)
+					(xy -3.8432 -1.9121) (xy -3.9046 -1.8975) (xy -3.9649 -1.8785) (xy -4.0238 -1.8551) (xy -4.081 -1.8274)
+					(xy -4.1364 -1.7954) (xy -4.1895 -1.7592) (xy -4.2402 -1.7188) (xy -4.2883 -1.6742) (xy -4.3328 -1.6262)
+					(xy -4.3732 -1.5754) (xy -4.4095 -1.5223) (xy -4.4415 -1.467) (xy -4.4692 -1.4098) (xy -4.4926 -1.3509)
+					(xy -4.5116 -1.2906) (xy -4.5261 -1.2291) (xy -4.5362 -1.1668) (xy -4.5417 -1.1038) (xy -4.5427 -1.0405)
+					(xy -4.539 -0.977) (xy -4.5305 -0.9137) (xy -4.5174 -0.8507) (xy -4.4995 -0.7884) (xy -4.4767 -0.7269)
+					(xy -4.4635 -0.6968) (xy -4.4493 -0.6674) (xy -4.4341 -0.6386) (xy -4.418 -0.6106) (xy -4.4008 -0.5833)
+					(xy -4.3827 -0.5568) (xy -4.3637 -0.531) (xy -4.3439 -0.5061) (xy -4.3232 -0.4819) (xy -4.3016 -0.4586)
+					(xy -4.2793 -0.4361) (xy -4.2562 -0.4144) (xy -4.2323 -0.3937) (xy -4.2077 -0.3738) (xy -4.1825 -0.3549)
+					(xy -4.1565 -0.3368) (xy -4.13 -0.3198) (xy -4.1028 -0.3037) (xy -4.0751 -0.2886) (xy -4.0467 -0.2745)
+					(xy -4.0179 -0.2614) (xy -3.9886 -0.2494) (xy -3.9588 -0.2384) (xy -3.9285 -0.2285) (xy -3.8978 -0.2197)
+					(xy -3.8668 -0.212) (xy -3.8353 -0.2055) (xy -3.8036 -0.2001) (xy -3.7715 -0.1959) (xy -3.7391 -0.1928)
+					(xy -3.7065 -0.191) (xy -3.6736 -0.1904) (xy -3.6305 -0.1914)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.618 5.0064) (xy -3.5535 5.0042) (xy -3.4891 5.0006) (xy -3.4247 4.9954) (xy -3.3605 4.9888)
+					(xy -3.2964 4.9808) (xy -3.2324 4.9713) (xy -3.1686 4.9603) (xy -2.8758 4.9085) (xy -2.5881 4.844)
+					(xy -2.3057 4.7671) (xy -2.0291 4.6781) (xy -1.7583 4.5773) (xy -1.4937 4.4651) (xy -1.2356 4.3418)
+					(xy -0.9842 4.2078) (xy -0.7399 4.0632) (xy -0.5028 3.9085) (xy -0.2734 3.7439) (xy -0.0517 3.5698)
+					(xy 0.1618 3.3866) (xy 0.3669 3.1944) (xy 0.5634 2.9937) (xy 0.7509 2.7848) (xy 0.9292 2.5679)
+					(xy 1.098 2.3435) (xy 1.257 2.1117) (xy 1.4061 1.873) (xy 1.5447 1.6277) (xy 1.6728 1.376) (xy 1.7901 1.1184)
+					(xy 1.8962 0.855) (xy 1.9909 0.5863) (xy 2.0739 0.3126) (xy 2.1449 0.0341) (xy 2.2037 -0.2487)
+					(xy 2.25 -0.5357) (xy 2.2835 -0.8264) (xy 2.3039 -1.1205) (xy 2.311 -1.4178) (xy 2.3098 -1.5693)
+					(xy 2.305 -1.7206) (xy 2.2965 -1.8717) (xy 2.2844 -2.0225) (xy 2.2686 -2.173) (xy 2.2492 -2.3231)
+					(xy 2.2261 -2.4727) (xy 2.1994 -2.6218) (xy 2.0925 -2.6716) (xy 1.9845 -2.7192) (xy 1.8757 -2.7645)
+					(xy 1.7659 -2.8075) (xy 1.6553 -2.8482) (xy 1.5438 -2.8867) (xy 1.4315 -2.9228) (xy 1.3185 -2.9566)
+					(xy 0.2965 -2.6688) (xy 0.3243 -2.5715) (xy 0.3496 -2.4736) (xy 0.3725 -2.3752) (xy 0.3928 -2.2762)
+					(xy 0.4107 -2.1767) (xy 0.4261 -2.0768) (xy 0.4389 -1.9765) (xy 0.4492 -1.8759) (xy 0.4666 -1.6401)
+					(xy 0.4719 -1.4062) (xy 0.4656 -1.1744) (xy 0.4477 -0.9453) (xy 0.4187 -0.719) (xy 0.3788 -0.4958)
+					(xy 0.3281 -0.2762) (xy 0.267 -0.0603) (xy 0.1958 0.1514) (xy 0.1146 0.3587) (xy 0.0237 0.5613)
+					(xy -0.0765 0.7588) (xy -0.1859 0.9509) (xy -0.3042 1.1374) (xy -0.4311 1.3178) (xy -0.5665 1.492)
+					(xy -0.7099 1.6595) (xy -0.8612 1.8201) (xy -1.0201 1.9734) (xy -1.1864 2.1191) (xy -1.3597 2.257)
+					(xy -1.5399 2.3867) (xy -1.7267 2.5078) (xy -1.9199 2.6201) (xy -2.1191 2.7233) (xy -2.3241 2.817)
+					(xy -2.5346 2.901) (xy -2.7505 2.9748) (xy -2.9714 3.0383) (xy -3.1971 3.0911) (xy -3.4274 3.1328)
+					(xy -3.6619 3.1631) (xy -3.6793 3.1645) (xy -3.6967 3.1651) (xy -3.714 3.1647) (xy -3.7313 3.1635)
+					(xy -3.7484 3.1614) (xy -3.7653 3.1585) (xy -3.7821 3.1548) (xy -3.7987 3.1502) (xy -3.815 3.1448)
+					(xy -3.831 3.1386) (xy -3.8467 3.1316) (xy -3.8621 3.1238) (xy -3.8771 3.1153) (xy -3.8917 3.106)
+					(xy -3.9059 3.0959) (xy -3.9196 3.0851) (xy -3.9328 3.0736) (xy -3.9453 3.0615) (xy -3.9571 3.0488)
+					(xy -3.9683 3.0356) (xy -3.9788 3.0219) (xy -3.9885 3.0078) (xy -3.9975 2.9931) (xy -4.0058 2.9781)
+					(xy -4.0133 2.9626) (xy -4.0201 2.9468) (xy -4.0261 2.9307) (xy -4.0312 2.9143) (xy -4.0356 2.8975)
+					(xy -4.0391 2.8806) (xy -4.0418 2.8634) (xy -4.0436 2.846) (xy -4.0442 2.8285) (xy -4.044 2.8111)
+					(xy -4.0429 2.794) (xy -4.041 2.777) (xy -4.0383 2.7603) (xy -4.0349 2.7438) (xy -4.0307 2.7275)
+					(xy -4.0258 2.7116) (xy -4.0201 2.6959) (xy -4.0137 2.6806) (xy -4.0067 2.6657) (xy -3.999 2.6511)
+					(xy -3.9907 2.6369) (xy -3.9817 2.6231) (xy -3.9721 2.6098) (xy -3.9619 2.5969) (xy -3.9511 2.5845)
+					(xy -3.9398 2.5725) (xy -3.9279 2.5612) (xy -3.9156 2.5503) (xy -3.9027 2.54) (xy -3.8893 2.5303)
+					(xy -3.8754 2.5212) (xy -3.8611 2.5128) (xy -3.8463 2.5049) (xy -3.8312 2.4978) (xy -3.8156 2.4913)
+					(xy -3.7997 2.4856) (xy -3.7833 2.4806) (xy -3.7667 2.4763) (xy -3.7497 2.4728) (xy -3.7324 2.4701)
+					(xy -3.5982 2.4537) (xy -3.4649 2.4326) (xy -3.3328 2.4068) (xy -3.2018 2.3764) (xy -3.0721 2.3415)
+					(xy -2.9438 2.3022) (xy -2.8171 2.2583) (xy -2.6921 2.2101) (xy -2.5688 2.1575) (xy -2.4474 2.1006)
+					(xy -2.3279 2.0394) (xy -2.2106 1.9741) (xy -2.0956 1.9045) (xy -1.9828 1.8309) (xy -1.8726 1.7532)
+					(xy -1.7649 1.6714) (xy -1.5689 1.513) (xy -1.3849 1.3436) (xy -1.2132 1.1639) (xy -1.054 0.9745)
+					(xy -0.9076 0.7762) (xy -0.7744 0.5697) (xy -0.6546 0.3556) (xy -0.5486 0.1346) (xy -0.4567 -0.0926)
+					(xy -0.3791 -0.3254) (xy -0.3162 -0.563) (xy -0.2682 -0.8047) (xy -0.2355 -1.0499) (xy -0.2184 -1.2979)
+					(xy -0.2171 -1.548) (xy -0.232 -1.7996) (xy -0.2379 -1.7702) (xy -0.2474 -1.8582) (xy -0.259 -1.9459)
+					(xy -0.2725 -2.0332) (xy -0.2881 -2.1202) (xy -0.3056 -2.2067) (xy -0.325 -2.2928) (xy -0.3464 -2.3783)
+					(xy -0.3698 -2.4634) (xy -0.3951 -2.5479) (xy -0.4223 -2.6318) (xy -0.4514 -2.7151) (xy -0.4825 -2.7977)
+					(xy -0.5154 -2.8796) (xy -0.5502 -2.9609) (xy -0.5869 -3.0413) (xy -0.6255 -3.121) (xy -0.7594 -3.1109)
+					(xy -0.8929 -3.0974) (xy -1.026 -3.0804) (xy -1.1586 -3.06) (xy -1.2906 -3.0363) (xy -1.422 -3.0092)
+					(xy -1.5527 -2.9787) (xy -1.6827 -2.9448) (xy -2.3874 -2.4925) (xy -2.3483 -2.4299) (xy -2.3116 -2.3661)
+					(xy -2.2773 -2.3011) (xy -2.2455 -2.2351) (xy -2.216 -2.168) (xy -2.189 -2.1) (xy -2.1645 -2.0311)
+					(xy -2.1425 -1.9613) (xy -2.123 -1.8909) (xy -2.106 -1.8197) (xy -2.0916 -1.748) (xy -2.0797 -1.6757)
+					(xy -2.0705 -1.603) (xy -2.0639 -1.5298) (xy -2.0599 -1.4563) (xy -2.0585 -1.3826) (xy -2.0607 -1.2888)
+					(xy -2.0669 -1.196) (xy -2.0773 -1.1043) (xy -2.0916 -1.0137) (xy -2.1099 -0.9244) (xy -2.1319 -0.8364)
+					(xy -2.1577 -0.7499) (xy -2.1872 -0.6649) (xy -2.2203 -0.5816) (xy -2.2568 -0.5001) (xy -2.2967 -0.4204)
+					(xy -2.34 -0.3426) (xy -2.3865 -0.2669) (xy -2.4362 -0.1933) (xy -2.4889 -0.122) (xy -2.5446 -0.0531)
+					(xy -2.6032 0.0134) (xy -2.6646 0.0774) (xy -2.7288 0.1387) (xy -2.7956 0.1972) (xy -2.865 0.253)
+					(xy -2.9368 0.3057) (xy -3.0111 0.3554) (xy -3.0877 0.402) (xy -3.1665 0.4454) (xy -3.2474 0.4853)
+					(xy -3.3304 0.5219) (xy -3.4154 0.5549) (xy -3.5023 0.5843) (xy -3.591 0.6099) (xy -3.6814 0.6316)
+					(xy -3.7735 0.6495) (xy -3.8431 0.6586) (xy -3.9125 0.6687) (xy -3.9818 0.6798) (xy -4.0509 0.6918)
+					(xy -4.1198 0.7048) (xy -4.1886 0.7187) (xy -4.2572 0.7335) (xy -4.3255 0.7493) (xy -4.4547 0.796)
+					(xy -4.5798 0.8502) (xy -4.7006 0.9117) (xy -4.8168 0.9802) (xy -4.9283 1.0555) (xy -5.0346 1.1372)
+					(xy -5.1356 1.225) (xy -5.231 1.3188) (xy -5.3205 1.4182) (xy -5.4038 1.523) (xy -5.4808 1.6328)
+					(xy -5.551 1.7475) (xy -5.6144 1.8666) (xy -5.6705 1.99) (xy -5.7192 2.1174) (xy -5.7601 2.2485)
+					(xy -5.7927 2.3818) (xy -5.8169 2.516) (xy -5.8326 2.6506) (xy -5.8399 2.7854) (xy -5.839 2.9198)
+					(xy -5.8299 3.0536) (xy -5.8126 3.1864) (xy -5.7874 3.3178) (xy -5.7541 3.4473) (xy -5.7131 3.5748)
+					(xy -5.6642 3.6997) (xy -5.6077 3.8217) (xy -5.5436 3.9404) (xy -5.4719 4.0555) (xy -5.3928 4.1665)
+					(xy -5.3063 4.2732) (xy -5.2502 4.3347) (xy -5.192 4.394) (xy -5.1318 4.451) (xy -5.0696 4.5056)
+					(xy -5.0055 4.5578) (xy -4.9396 4.6075) (xy -4.8719 4.6548) (xy -4.8026 4.6995) (xy -4.7316 4.7416)
+					(xy -4.6592 4.7811) (xy -4.5852 4.8179) (xy -4.5099 4.852) (xy -4.4333 4.8833) (xy -4.3555 4.9119)
+					(xy -4.2765 4.9375) (xy -4.1963 4.9603) (xy -4.1325 4.9713) (xy -4.0686 4.9808) (xy -4.0044 4.9888)
+					(xy -3.9402 4.9954) (xy -3.8758 5.0006) (xy -3.8114 5.0042) (xy -3.7469 5.0064) (xy -3.6824 5.0071)
+					(xy -3.618 5.0064)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.4888 7.4191) (xy -2.1257 7.3438) (xy -1.7681 7.2542) (xy -1.4164 7.1507) (xy -1.071 7.0335)
+					(xy -0.732 6.903) (xy -0.3999 6.7595) (xy -0.075 6.6032) (xy 0.2426 6.4346) (xy 0.5523 6.2539)
+					(xy 0.854 6.0614) (xy 1.1474 5.8574) (xy 1.7076 5.4162) (xy 2.2307 4.9328) (xy 2.714 4.4098) (xy 3.1552 3.8495)
+					(xy 3.3592 3.5562) (xy 3.5517 3.2545) (xy 3.7324 2.9447) (xy 3.9011 2.6272) (xy 4.0573 2.3022)
+					(xy 4.2008 1.9701) (xy 4.3313 1.6312) (xy 4.4485 1.2857) (xy 4.552 0.934) (xy 4.6416 0.5765) (xy 4.7169 0.2133)
+					(xy 4.7777 -0.1551) (xy 4.682 -0.3247) (xy 4.581 -0.4909) (xy 4.4747 -0.6537) (xy 4.3632 -0.813)
+					(xy 4.2466 -0.9686) (xy 4.1251 -1.1203) (xy 3.9986 -1.2682) (xy 3.8674 -1.412) (xy 3.0275 -1.412)
+					(xy 3.0176 -1.0445) (xy 2.9895 -0.6819) (xy 2.9436 -0.3245) (xy 2.8803 0.0271) (xy 2.8001 0.3725)
+					(xy 2.7035 0.7113) (xy 2.5908 1.0431) (xy 2.4626 1.3673) (xy 2.3193 1.6835) (xy 2.1612 1.9913)
+					(xy 1.989 2.2903) (xy 1.803 2.58) (xy 1.6037 2.8599) (xy 1.3915 3.1296) (xy 1.1669 3.3886) (xy 0.9303 3.6366)
+					(xy 0.6821 3.873) (xy 0.4229 4.0974) (xy 0.153 4.3094) (xy -0.1271 4.5085) (xy -0.4169 4.6942)
+					(xy -0.716 4.8662) (xy -1.0239 5.024) (xy -1.3403 5.167) (xy -1.6646 5.295) (xy -1.9964 5.4074)
+					(xy -2.3353 5.5037) (xy -2.6808 5.5836) (xy -3.0325 5.6466) (xy -3.3899 5.6923) (xy -3.7525 5.7201)
+					(xy -4.12 5.7297) (xy -4.12 6.5695) (xy -3.9763 6.7019) (xy -3.8282 6.8291) (xy -3.676 6.9511)
+					(xy -3.5198 7.0679) (xy -3.3596 7.1792) (xy -3.1958 7.2851) (xy -3.0283 7.3853) (xy -2.8573 7.4798)
+					(xy -2.4888 7.4191)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.0716 8.1259) (xy 0.3596 8.1054) (xy 0.6435 8.0707) (xy 0.9229 8.0221) (xy 1.1975 7.96) (xy 1.4668 7.8848)
+					(xy 1.7305 7.7967) (xy 1.9883 7.6962) (xy 2.2398 7.5837) (xy 2.4847 7.4594) (xy 2.7225 7.3237)
+					(xy 2.953 7.177) (xy 3.1757 7.0197) (xy 3.3903 6.8521) (xy 3.5964 6.6745) (xy 3.7938 6.4874) (xy 3.9819 6.291)
+					(xy 4.1606 6.0858) (xy 4.3293 5.872) (xy 4.4878 5.6501) (xy 4.6357 5.4204) (xy 4.7726 5.1833) (xy 4.8981 4.9391)
+					(xy 5.012 4.6882) (xy 5.1138 4.4309) (xy 5.2032 4.1676) (xy 5.2799 3.8987) (xy 5.3434 3.6245) (xy 5.3934 3.3453)
+					(xy 5.4296 3.0616) (xy 5.4516 2.7737) (xy 5.459 2.4819) (xy 5.4548 2.3573) (xy 5.4517 2.2903) (xy 5.4473 2.2324)
+					(xy 5.4417 2.1805) (xy 5.4349 2.1319) (xy 5.4268 2.0837) (xy 5.4173 2.0329) (xy 5.3943 1.9122)
+					(xy 5.0185 1.7771) (xy 4.8209 2.2921) (xy 4.5958 2.7922) (xy 4.3441 3.2765) (xy 4.0667 3.7441)
+					(xy 3.7645 4.1942) (xy 3.4385 4.6258) (xy 3.0894 5.038) (xy 2.7183 5.4299) (xy 2.326 5.8007) (xy 1.9135 6.1493)
+					(xy 1.4815 6.4749) (xy 1.0312 6.7767) (xy 0.5632 7.0536) (xy 0.0787 7.3048) (xy -0.4216 7.5294)
+					(xy -0.9368 7.7265) (xy -0.8076 8.1024) (xy -0.7349 8.1121) (xy -0.6621 8.1194) (xy -0.5892 8.1246)
+					(xy -0.5161 8.1281) (xy -0.4428 8.1302) (xy -0.369 8.1313) (xy -0.2203 8.1317) (xy 0.0716 8.1259)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 231 53 44 1)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -52.07 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 10.16 0)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA19_OUT" bidirectional line)
+				(alternate "LP_GPIO2" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT2" bidirectional line)
+				(alternate "LP_SPI_CK" bidirectional line)
+				(alternate "LP_UART_DTRN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 7.62 0)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA20_OUT" bidirectional line)
+				(alternate "LP_GPIO3" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT3" bidirectional line)
+				(alternate "LP_SPI_CS" bidirectional line)
+				(alternate "LP_UART_DSRN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 5.08 0)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA21_OUT" bidirectional line)
+				(alternate "LP_GPIO4" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT4" bidirectional line)
+				(alternate "LP_SPI_D" bidirectional line)
+				(alternate "LP_UART_RTSN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 2.54 0)
+				(length 2.54)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA22_OUT" bidirectional line)
+				(alternate "LP_GPIO5" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT5" bidirectional line)
+				(alternate "LP_SPI_Q" bidirectional line)
+				(alternate "LP_UART_CTSN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 0 0)
+				(length 2.54)
+				(name "GPIO0/XTAL_32K_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LP_GPIO0" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT0" bidirectional line)
+				(alternate "XTAL_32K_N" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -2.54 0)
+				(length 2.54)
+				(name "GPIO1/XTAL_32K_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LP_GPIO1" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT1" bidirectional line)
+				(alternate "XTAL_32K_P" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -5.08 0)
+				(length 2.54)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LP_GPIO6" bidirectional line)
+				(alternate "LP_I2C_SCL" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT6" bidirectional line)
+				(alternate "LP_UART_TXD" bidirectional line)
+				(alternate "TOUCH_CH0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -7.62 0)
+				(length 2.54)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA23_OUT" bidirectional line)
+				(alternate "LP_GPIO7" bidirectional line)
+				(alternate "LP_I2C_SDA" bidirectional line)
+				(alternate "LP_PROBE_TOP_OUT7" bidirectional line)
+				(alternate "LP_UART_RXD" bidirectional line)
+				(alternate "TOUCH_CH1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -10.16 0)
+				(length 2.54)
+				(name "GPIO35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA14_OUT" bidirectional line)
+				(alternate "REF_GMAC_CLK" bidirectional line)
+				(alternate "SD2_CDATA0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -12.7 0)
+				(length 2.54)
+				(name "GPIO33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA12_OUT" output line)
+				(alternate "USB1P1_N0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -15.24 0)
+				(length 2.54)
+				(name "GPIO34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA13_OUT" output line)
+				(alternate "USB1P1_P0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -34.29 -17.78 0)
+				(length 2.54)
+				(name "SDIO_DATA0/GPIO20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_CK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -11.43 -52.07 90)
+				(length 2.54)
+				(name "SDIO_DATA1/GPIO21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_D" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -8.89 -52.07 90)
+				(length 2.54)
+				(name "SDIO_DATA2/GPIO22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_Q" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -6.35 -52.07 90)
+				(length 2.54)
+				(name "SDIO_DATA3/GPIO23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_CS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 -52.07 90)
+				(length 2.54)
+				(name "SDIO_CLK/GPIO24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_HOLD" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -1.27 -52.07 90)
+				(length 2.54)
+				(name "SDIO_CMD/GPIO25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI2_WP" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 1.27 -52.07 90)
+				(length 2.54)
+				(name "GPIO36*"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA15_OUT" bidirectional line)
+				(alternate "SD2_CDATA1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 3.81 -52.07 90)
+				(length 2.54)
+				(name "GPIO37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA16_OUT" bidirectional line)
+				(alternate "PAD_COMP0" bidirectional line)
+				(alternate "SD2_CDATA2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 6.35 -52.07 90)
+				(length 2.54)
+				(name "GPIO38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA17_OUT" bidirectional line)
+				(alternate "PAD_COMP1" bidirectional line)
+				(alternate "SD2_CDATA3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 8.89 -52.07 90)
+				(length 2.54)
+				(name "GPIO39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_DATA18_OUT" bidirectional line)
+				(alternate "PAD_COMP2" bidirectional line)
+				(alternate "SD2_CCLK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 11.43 -52.07 90)
+				(length 2.54)
+				(name "GPIO40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_PCLK" bidirectional line)
+				(alternate "PAD_COMP3" bidirectional line)
+				(alternate "SD2_CCMD" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -12.7 180)
+				(length 2.54)
+				(name "GPIO42/ADC1_CH0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH0_N" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -10.16 180)
+				(length 2.54)
+				(name "GPIO43/ADC1_CH0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH0_P" bidirectional line)
+				(alternate "LCD_H_ENABLE" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -7.62 180)
+				(length 2.54)
+				(name "GPIO44/ADC1_CH1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH1_N" bidirectional line)
+				(alternate "LCD_H_SYNC" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -5.08 180)
+				(length 2.54)
+				(name "GPIO45/ADC1_CH1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH1_P" bidirectional line)
+				(alternate "LCD_V_SYNC" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 -2.54 180)
+				(length 2.54)
+				(name "GPIO46/ADC1_CH2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH2_N" bidirectional line)
+				(alternate "CAM_DATA0_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 0 180)
+				(length 2.54)
+				(name "GPIO47/ADC1_CH2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH2_P" bidirectional line)
+				(alternate "CAM_DATA1_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 2.54 180)
+				(length 2.54)
+				(name "MTDO/GPIO54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH2_N" bidirectional line)
+				(alternate "CAM_PCLK" bidirectional line)
+				(alternate "GPIO54" bidirectional line)
+				(alternate "SPI2_D" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 5.08 180)
+				(length 2.54)
+				(name "MTCK/GPIO55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH2_P" bidirectional line)
+				(alternate "CAM_XCLK" bidirectional line)
+				(alternate "GPIO55" bidirectional line)
+				(alternate "SPI2_Q" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 7.62 180)
+				(length 2.54)
+				(name "UART0_RXD/GPIO59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GPIO59" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 10.16 180)
+				(length 2.54)
+				(name "UART0_TXD/GPIO58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GPIO58" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 12.7 180)
+				(length 2.54)
+				(name "MTDI/GPIO56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH3_N" bidirectional line)
+				(alternate "CAM_V_SYNC" bidirectional line)
+				(alternate "GPIO56" bidirectional line)
+				(alternate "SPI2_HOLD" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 15.24 180)
+				(length 2.54)
+				(name "MTMS/GPIO57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH3_P" bidirectional line)
+				(alternate "CAM_H_SYNC" bidirectional line)
+				(alternate "GPIO57" bidirectional line)
+				(alternate "SPI2_WP" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 24.13 43.18 270)
+				(length 2.54)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD0" bidirectional line)
+				(alternate "LCD_DATA0_OUT" bidirectional line)
+				(alternate "TOUCH_CH2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 21.59 43.18 270)
+				(length 2.54)
+				(name "GPIO9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD1" bidirectional line)
+				(alternate "LCD_DATA1_OUT" bidirectional line)
+				(alternate "SPI2_HOLD" bidirectional line)
+				(alternate "TOUCH_CH3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 19.05 43.18 270)
+				(length 2.54)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD2" bidirectional line)
+				(alternate "LCD_DATA2_OUT" bidirectional line)
+				(alternate "SPI2_CS" bidirectional line)
+				(alternate "TOUCH_CH4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 16.51 43.18 270)
+				(length 2.54)
+				(name "GPIO11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXD3" bidirectional line)
+				(alternate "LCD_DATA3_OUT" bidirectional line)
+				(alternate "SPI2_D" bidirectional line)
+				(alternate "TOUCH_CH5" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.97 43.18 270)
+				(length 2.54)
+				(name "GPIO12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_TXEN" bidirectional line)
+				(alternate "LCD_DATA4_OUT" bidirectional line)
+				(alternate "SPI2_CK" bidirectional line)
+				(alternate "TOUCH_CH6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 11.43 43.18 270)
+				(length 2.54)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_RMII_CLK" bidirectional line)
+				(alternate "LCD_DATA5_OUT" bidirectional line)
+				(alternate "SPI2_Q" bidirectional line)
+				(alternate "TOUCH_CH7" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 8.89 43.18 270)
+				(length 2.54)
+				(name "GPIO14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_RX_CLK" bidirectional line)
+				(alternate "LCD_DATA6_OUT" bidirectional line)
+				(alternate "SPI2_WP" bidirectional line)
+				(alternate "TOUCH_CH8" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 6.35 43.18 270)
+				(length 2.54)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXDV" bidirectional line)
+				(alternate "LCD_DATA7_OUT" bidirectional line)
+				(alternate "SPI2_IO4" bidirectional line)
+				(alternate "TOUCH_CH9" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 3.81 43.18 270)
+				(length 2.54)
+				(name "GPIO16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD3" bidirectional line)
+				(alternate "LCD_DATA8_OUT" bidirectional line)
+				(alternate "SPI2_IO5" bidirectional line)
+				(alternate "TOUCH_CH10" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 1.27 43.18 270)
+				(length 2.54)
+				(name "GPIO17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD2" bidirectional line)
+				(alternate "LCD_DATA9_OUT" bidirectional line)
+				(alternate "SPI2_IO6" bidirectional line)
+				(alternate "TOUCH_CH11" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -1.27 43.18 270)
+				(length 2.54)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD1" bidirectional line)
+				(alternate "LCD_DATA10_OUT" bidirectional line)
+				(alternate "SPI2_IO7" bidirectional line)
+				(alternate "TOUCH_CH12" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 43.18 270)
+				(length 2.54)
+				(name "GPIO19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "GMAC_PHY_RXD0" bidirectional line)
+				(alternate "LCD_DATA11_OUT" bidirectional line)
+				(alternate "SPI2_DQS" bidirectional line)
+				(alternate "TOUCH_CH13" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -8.89 43.18 270)
+				(length 2.54)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -11.43 43.18 270)
+				(length 2.54)
+				(name "GPIO48/ADC1_CH3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH3_N" bidirectional line)
+				(alternate "CAM_DATA2_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.97 43.18 270)
+				(length 2.54)
+				(name "GPIO49/ADC1_CH3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_CH3_P" bidirectional line)
+				(alternate "CAM_DATA3_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -16.51 43.18 270)
+				(length 2.54)
+				(name "GPIO50/ADC2_CH0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH0_N" bidirectional line)
+				(alternate "CAM_DATA4_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -19.05 43.18 270)
+				(length 2.54)
+				(name "GPIO51/ADC2_CH0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH0_P" bidirectional line)
+				(alternate "CAM_DATA5_IN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -21.59 43.18 270)
+				(length 2.54)
+				(name "GPIO52/ADC2_CH1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH1_N" bidirectional line)
+				(alternate "CAM_DATA6_IN" bidirectional line)
+				(alternate "SPI2_CS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -24.13 43.18 270)
+				(length 2.54)
+				(name "GPIO53/ADC2_CH1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC2_CH1_P" bidirectional line)
+				(alternate "CAM_DATA7_IN" bidirectional line)
+				(alternate "SPI2_CK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 34.29 25.4 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 34.29 27.94 180)
+				(length 2.54)
+				(name "ANT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 34.29 30.48 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-S31-WROOM-1U_1_1"
+			(rectangle
+				(start -31.75 40.64)
+				(end 31.75 -49.53)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "ESP32-S31-WROOM-1U"
+				(at 0.254 -23.622 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ESP32-S31-WROOM-3"
 		(exclude_from_sim no)
 		(in_bom yes)
