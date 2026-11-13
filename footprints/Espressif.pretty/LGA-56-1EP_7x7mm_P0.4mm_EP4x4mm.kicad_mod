@@ -1,4 +1,4 @@
-(footprint "LGA-56_EP_7x7_Pitch0.4mm"
+(footprint "LGA-56-1EP_7x7mm_P0.4mm_EP4x4mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "LGA-56_EP_7x7_Pitch0.4mm"
+	(property "Value" "LGA-56-1EP_7x7mm_P0.4mm_EP4x4mm"
 		(at 0 5.1 0)
 		(layer "F.Fab")
 		(uuid "70bc5227-835f-4957-8582-5d86e2c83c59")
