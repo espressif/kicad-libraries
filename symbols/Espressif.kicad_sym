@@ -17445,9 +17445,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "ESP32-H2-WROOM-02C"
-		(pin_names
-			(offset 0.508)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17543,7 +17540,7 @@
 				)
 			)
 			(text "ESP32-H2-WROOM-02C"
-				(at 0 -27.94 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 2 2)
@@ -17689,24 +17686,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -33.02 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "[9,13,29]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -18035,6 +18014,24 @@
 					)
 				)
 				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -33.02 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[9,13,29]"
 					(effects
 						(font
 							(size 1.27 1.27)
