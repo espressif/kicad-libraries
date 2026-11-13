@@ -43575,7 +43575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm"
+		(property "Footprint" "Package_DFN_QFN:WQFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm"
 			(at 2.54 -30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43598,6 +43598,17 @@
 			)
 		)
 		(property "Description" "ESP8685 is an ultra-low-power and highly-integrated MCU-based SoC solution that supports 2.4 GHz Wi-Fi and\nBluetooth® Low Energy (Bluetooth LE)."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "esp8685"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
