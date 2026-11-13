@@ -3,7 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "LGA56 (7x7 mm)")
+	(descr "LGA-56 exposed-pad package, 7x7 mm, 0.4 mm pitch, for ESP32-S3-PICO-1; https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf")
+	(tags "ESP32-S3-PICO-1 LGA-56")
 	(property "Reference" "REF**"
 		(at 0 -5.1 0)
 		(layer "F.SilkS")
@@ -165,7 +166,7 @@
 		(start -3.5 -2.5)
 		(end -3.5 3.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
@@ -175,7 +176,7 @@
 		(start -3.5 3.5)
 		(end 3.5 3.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
@@ -185,7 +186,7 @@
 		(start -2.5 -3.5)
 		(end -3.5 -2.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
@@ -195,7 +196,7 @@
 		(start 3.5 -3.5)
 		(end -2.5 -3.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
@@ -205,7 +206,7 @@
 		(start 3.5 3.5)
 		(end 3.5 -3.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
