@@ -36933,8 +36933,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -54.61 -41.91 0)
+		(property "Value" "ESP32-S31-WROOM-1"
+			(at -31.496 -51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36977,6 +36977,17 @@
 			)
 		)
 		(property "ki_keywords" "esp32-s31"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "ESP32?S31?WROOM?1*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37053,44 +37064,6 @@
 					)
 				)
 				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 27.94 -52.07 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 27.94 -52.07 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37323,24 +37296,6 @@
 					(color 231 53 44 1)
 				)
 			)
-			(pin power_in line
-				(at 27.94 -52.07 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -34.29 10.16 0)
 				(length 2.54)
@@ -38449,6 +38404,24 @@
 				(alternate "CAM_DATA7_IN" bidirectional line)
 				(alternate "SPI2_CK" bidirectional line)
 			)
+			(pin power_in line
+				(at 27.94 -52.07 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[1,40,41]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "ESP32-S31-WROOM-1_1_1"
 			(rectangle
@@ -38489,8 +38462,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -54.61 -41.91 0)
+		(property "Value" "ESP32-S31-WROOM-1U"
+			(at -31.75 -51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38521,7 +38494,7 @@
 				)
 			)
 		)
-		(property "Description" "2.4 GHz Wi-Fi 6, Bluetooth 5.4 (LE), Bluetooth Classic, Zigbee and Thread (802.15.4) module Built around ESP32-S31 series of SoCs, RISC-V 32-bit dual-core microprocessor 54 GPIOs, rich set of peripherals On-board PCB antenna"
+		(property "Description" "2.4 GHz Wi-Fi 6, Bluetooth 5.4 (LE), Bluetooth Classic, Zigbee and Thread (802.15.4) module built around ESP32-S31 series of SoCs, RISC-V 32-bit dual-core microprocessor, 54 GPIOs, rich set of peripherals, external antenna connector"
 			(at -0.254 -64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38533,6 +38506,17 @@
 			)
 		)
 		(property "ki_keywords" "esp32-s31"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "ESP32?S31?WROOM?1U*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38609,44 +38593,6 @@
 					)
 				)
 				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 27.94 -52.07 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 27.94 -52.07 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38879,24 +38825,6 @@
 					(color 231 53 44 1)
 				)
 			)
-			(pin power_in line
-				(at 27.94 -52.07 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -34.29 10.16 0)
 				(length 2.54)
@@ -40005,25 +39933,7 @@
 				(alternate "CAM_DATA7_IN" bidirectional line)
 				(alternate "SPI2_CK" bidirectional line)
 			)
-			(pin bidirectional line
-				(at 34.29 25.4 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
+			(pin passive line
 				(at 34.29 27.94 180)
 				(length 2.54)
 				(name "ANT2"
@@ -40041,8 +39951,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 34.29 30.48 180)
+			(pin power_in line
+				(at 27.94 -52.07 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -40051,7 +39961,7 @@
 						)
 					)
 				)
-				(number "64"
+				(number "[1,40,41,62,64]"
 					(effects
 						(font
 							(size 1.27 1.27)
