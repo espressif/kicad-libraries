@@ -62,6 +62,7 @@ The following SoC are included in this library
 |ESP32-MINI-1      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
 |ESP32-MINI-1U     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
 |ESP32-C3-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
+|ESP32-C3-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
 |ESP32-C3-WROOM-02 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)                  |
 |ESP32-C5-MINI-1   |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
 |ESP32-C5-MINI-1U  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
