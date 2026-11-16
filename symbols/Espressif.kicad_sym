@@ -40969,7 +40969,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Espressif:QFN-80-1EP_8x8mm_P0.35mm_EP6.5x6.5mm"
-			(at 0 0 0)
+			(at 0 -66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -40980,7 +40980,7 @@
 			)
 		)
 		(property "Datasheet" "https://documentation.espressif.com/esp32-s31_datasheet_en.html"
-			(at 0 0 0)
+			(at -0.254 -63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -40991,7 +40991,7 @@
 			)
 		)
 		(property "Description" "Dual-core RISC-V SoC with Wi-Fi 6, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, and in-package PSRAM"
-			(at 0 0 0)
+			(at 0 -60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -41055,6 +41055,42 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -12.7 48.26 270)
+				(length 2.54)
+				(name "VDDA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 48.26 270)
+				(length 2.54)
+				(name "VDDA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -27.94 40.64 0)
 				(length 2.54)
@@ -41076,7 +41112,7 @@
 			(pin bidirectional line
 				(at -27.94 38.1 0)
 				(length 2.54)
-				(name "XTAL_32K_N/GPIO0"
+				(name "GPIO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -41098,7 +41134,7 @@
 			(pin bidirectional line
 				(at -27.94 35.56 0)
 				(length 2.54)
-				(name "XTAL_32K_P/GPIO1"
+				(name "GPIO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -41210,6 +41246,24 @@
 				(alternate "LP_PROBE_TOP_OUT5" bidirectional line)
 				(alternate "LP_SPI_Q" bidirectional line)
 				(alternate "LP_UART_CTSN" bidirectional line)
+			)
+			(pin power_in line
+				(at -7.62 48.26 270)
+				(length 2.54)
+				(name "VDDPST_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 			(pin bidirectional line
 				(at -27.94 22.86 0)
@@ -41599,6 +41653,24 @@
 				(alternate "GPIO22" bidirectional line)
 				(alternate "SPI2_Q" bidirectional line)
 			)
+			(pin power_in line
+				(at -5.08 48.26 270)
+				(length 2.54)
+				(name "VDD_PSRAM_1P8_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at -27.94 -25.4 0)
 				(length 2.54)
@@ -41659,6 +41731,42 @@
 				(alternate "GPIO25" bidirectional line)
 				(alternate "SPI2_WP" bidirectional line)
 			)
+			(pin power_in line
+				(at -2.54 48.26 270)
+				(length 2.54)
+				(name "VDD_PSRAM_1P8_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 27.94 0 180)
+				(length 2.54)
+				(name "VDD_LDO_1P8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at -27.94 -33.02 0)
 				(length 2.54)
@@ -41716,6 +41824,24 @@
 				)
 				(alternate "GPIO28" bidirectional line)
 			)
+			(pin power_in line
+				(at 0 48.26 270)
+				(length 2.54)
+				(name "VDD_SPI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at -27.94 -40.64 0)
 				(length 2.54)
@@ -41772,6 +41898,24 @@
 					)
 				)
 				(alternate "GPIO32" bidirectional line)
+			)
+			(pin power_in line
+				(at 2.54 48.26 270)
+				(length 2.54)
+				(name "VCCA/VDDPST_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 			(pin bidirectional line
 				(at 27.94 40.64 180)
@@ -41974,6 +42118,24 @@
 				(alternate "PAD_COMP3" bidirectional line)
 				(alternate "SD2_CCMD" bidirectional line)
 			)
+			(pin power_in line
+				(at 5.08 48.26 270)
+				(length 2.54)
+				(name "VDDPST_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 27.94 15.24 180)
 				(length 2.54)
@@ -42144,6 +42306,24 @@
 					)
 				)
 				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 48.26 270)
+				(length 2.54)
+				(name "VDDPST_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -42395,6 +42575,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 10.16 48.26 270)
+				(length 2.54)
+				(name "VDDA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 27.94 -40.64 180)
 				(length 2.54)
@@ -42432,186 +42630,6 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 48.26 270)
-				(length 2.54)
-				(name "VDDA3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 48.26 270)
-				(length 2.54)
-				(name "VDDA4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 48.26 270)
-				(length 2.54)
-				(name "VDDPST_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 48.26 270)
-				(length 2.54)
-				(name "VDD_PSRAM_1P8_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 48.26 270)
-				(length 2.54)
-				(name "VDD_PSRAM_1P8_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 48.26 270)
-				(length 2.54)
-				(name "VDD_SPI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 48.26 270)
-				(length 2.54)
-				(name "VCCA/VDDPST_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 48.26 270)
-				(length 2.54)
-				(name "VDDPST_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 48.26 270)
-				(length 2.54)
-				(name "VDDPST_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 48.26 270)
-				(length 2.54)
-				(name "VDDA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "77"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 12.7 48.26 270)
 				(length 2.54)
 				(name "VDDA2"
@@ -42622,24 +42640,6 @@
 					)
 				)
 				(number "80"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 27.94 0 180)
-				(length 2.54)
-				(name "VDD_LDO_1P8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
 					(effects
 						(font
 							(size 1.27 1.27)
