@@ -40,10 +40,12 @@ The following SoC are included in this library
 |ESP32-PICO-V3      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf) |
 |ESP32-S2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)      |
 |ESP32-S3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)      |
+|ESP32-S3-PICO-1    |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf)                       |
 |ESP8684 (ESP32-C2) |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8684_datasheet_en.pdf)       |
 |ESP32-C3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)      |
 |ESP8685            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685_datasheet_en.pdf)       |
 |ESP32-C6           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf)      |
+|ESP32-C61          |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61_datasheet_en.html)                             |
 |ESP32-H2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2_datasheet_en.pdf)      |
 |ESP8286            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
 |ESP8285            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
@@ -61,14 +63,18 @@ The following SoC are included in this library
 |ESP32-MINI-1      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
 |ESP32-MINI-1U     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
 |ESP32-C3-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
+|ESP32-C3-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
 |ESP32-C3-WROOM-02 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)                  |
-|ESP32-C5-MINI-1   |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.html)                                   |
+|ESP32-C5-MINI-1   |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
+|ESP32-C5-MINI-1U  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
 |ESP32-C5-WROOM-1  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html)                                 |
 |ESP32-C5-WROOM-1U |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html)                                 |
 |ESP32-C6-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf)                    |
 |ESP32-C6-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf)                    |
 |ESP32-C6-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-C6-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf)          |
+|ESP32-C61-WROOM-1 |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61-wroom-1_wroom-1u_datasheet_en.html)                               |
+|ESP32-C61-WROOM-1U|Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61-wroom-1_wroom-1u_datasheet_en.html)                               |
 |ESP32-S2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
 |ESP32-S2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
 |ESP32-S2-SOLO     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf)      |
@@ -80,9 +86,12 @@ The following SoC are included in this library
 |ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
 |ESP32-S3-WROOM-2  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
+|ESP32-S31-WROOM-1 |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html)                               |
+|ESP32-S31-WROOM-1U|Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html)                               |
 |ESP32-S31-WROOM-3 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s31-wroom-3_datasheet_en.pdf)                  |
 |ESP32-H2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
 |ESP32-H2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-H2-WROOM-02C |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp32-h2-wroom-02c_datasheet_en.pdf)                                       |
 |ESP8684-WROOM-02C  |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
 |ESP8684-WROOM-01UC |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
 |ESP8685-WROOM-01 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-01_datasheet_en.pdf)                   |
@@ -109,11 +118,26 @@ The following SoC are included in this library
 
 The unversioned `ESP32-C5-DevKitC-1` symbol and footprint remain available as aliases for the v1.1 board to preserve compatibility with existing designs.
 
-## Manual Installation - PCM
+## Installation with KiCad PCM
 
-The Espressif KiCad library is distributed via the Plug-in and Content Manager (PCM) and the installation is done automatically.
+The recommended way to install the Espressif KiCad library is through KiCad's Plugin and Content Manager (PCM).
 
-To install the library, you need to download the **[espressif-kicad-addon.zip](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)** file from the latest release. For legacy support, please visit the legacy branch and follow the instructions from there.
+### Add the Espressif PCM Repository (Recommended)
+
+1. Open KiCad and select **Plugin and Content Manager**.
+2. Click **Manage...**, then **Add Repository**.
+3. Enter the following repository URL:
+   ```
+   https://raw.githubusercontent.com/espressif/kicad-libraries/main/repository.json
+   ```
+4. Confirm the repository and close the repository manager.
+5. Find **Espressif Library** in the PCM package list and click **Install**.
+
+KiCad can then notify you when new versions of the library are available.
+
+### Install from a Downloaded File
+
+Alternatively, download **[espressif-kicad-addon.zip](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)** from the latest release and select **Install from File...** in PCM. For legacy support, visit the legacy branch and follow its instructions.
 
 ## [Download here the latest library!](https://github.com/espressif/kicad-libraries/releases/latest/download/espressif-kicad-addon.zip)
 
