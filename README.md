@@ -43,11 +43,12 @@ The following SoC are included in this library
 |ESP32-S2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)      |
 |ESP32-S3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)      |
 |ESP32-S3-PICO-1    |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf)                       |
+|ESP32-S31          |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31_datasheet_en.html)                            |
 |ESP8684 (ESP32-C2) |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8684_datasheet_en.pdf)       |
 |ESP32-C3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)      |
 |ESP8685            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685_datasheet_en.pdf)       |
 |ESP32-C6           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf)      |
-|ESP32-C61          |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61_datasheet_en.html)                             |
+|ESP32-C61          |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61_datasheet_en.html)                            |
 |ESP32-H2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2_datasheet_en.pdf)      |
 |ESP8286            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
 |ESP8285            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
@@ -56,52 +57,49 @@ The following SoC are included in this library
 
 ### Modules
 
-| Module           | Symbol | Footprint | Resource                                                                                                                    |
-|:-----------------|:------:|:---------:|:----------------------------------------------------------------------------------------------------------------------------|
-|ESP32-WROOM-32E   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
-|ESP32-WROOM-32UE  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
-|ESP32-WROOM-DA    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-da_datasheet_en.pdf)                     |
-|ESP32-WROVER-E    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf)     |
-|ESP32-MINI-1      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
-|ESP32-MINI-1U     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
-|ESP32-C3-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
-|ESP32-C3-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
-|ESP32-C3-WROOM-02 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)                  |
-|ESP32-C5-MINI-1   |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
-|ESP32-C5-MINI-1U  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
-|ESP32-C5-WROOM-1  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html)                                 |
-|ESP32-C5-WROOM-1U |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html)                                 |
-|ESP32-C6-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf)                    |
-|ESP32-C6-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf)                    |
-|ESP32-C6-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf)          |
-|ESP32-C6-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf)          |
-|ESP32-C61-WROOM-1 |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61-wroom-1_wroom-1u_datasheet_en.html)                               |
-|ESP32-C61-WROOM-1U|Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61-wroom-1_wroom-1u_datasheet_en.html)                               |
-|ESP32-S2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
-|ESP32-S2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
-|ESP32-S2-SOLO     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf)      |
-|ESP32-S2-SOLO-2U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf)   |
-|ESP32-S2-WROOM    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf)    |
-|ESP32-S2-WROVER   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf)  |
-|ESP32-S3-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)            |
-|ESP32-S3-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)            |
-|ESP32-S3-WROOM-1  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
-|ESP32-S3-WROOM-1U |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
-|ESP32-S3-WROOM-2  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
-|ESP32-S31         |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31_datasheet_en.html)                                           |
-|ESP32-S31-WROOM-1 |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html)                               |
-|ESP32-S31-WROOM-1U|Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html)                               |
-|ESP32-S31-WROOM-3 |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s31-wroom-3_datasheet_en.pdf)                  |
-|ESP32-H2-MINI-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
-|ESP32-H2-MINI-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
-|ESP32-H2-WROOM-02C |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp32-h2-wroom-02c_datasheet_en.pdf)                                       |
-|ESP8684-WROOM-02C  |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
-|ESP8684-WROOM-01UC |Yes    |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
-|ESP8685-WROOM-01 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-01_datasheet_en.pdf)                   |
-|ESP8685-WROOM-03 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-03_datasheet_en.pdf)                   |
-|ESP8685-WROOM-04 |No      |No          |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-04_datasheet_en.pdf)                   |
-|ESP8685-WROOM-05 |No      |Yes         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-05_datasheet_en.pdf)                   |
-|ESP8685-WROOM-06 |Yes     |Yes         |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf)                   |
+| Module            | Symbol | Footprint | Resource                                                                                                                    |
+|:------------------|:------:|:---------:|:----------------------------------------------------------------------------------------------------------------------------|
+|ESP32-WROOM-32E    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
+|ESP32-WROOM-32UE   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)   |
+|ESP32-WROOM-DA     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-da_datasheet_en.pdf)                     |
+|ESP32-WROVER-E     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf)     |
+|ESP32-MINI-1       |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
+|ESP32-MINI-1U      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)                       |
+|ESP32-C3-MINI-1    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
+|ESP32-C3-MINI-1U   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)                    |
+|ESP32-C3-WROOM-02  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)                  |
+|ESP32-C5-MINI-1    |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
+|ESP32-C5-MINI-1U   |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-mini-1_mini-1u_datasheet_en.html)                                   |
+|ESP32-C5-WROOM-1   |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html)                                 |
+|ESP32-C5-WROOM-1U  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html)                                 |
+|ESP32-C6-MINI-1    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf)                    |
+|ESP32-C6-MINI-1U   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf)                    |
+|ESP32-C6-WROOM-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf)          |
+|ESP32-C6-WROOM-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf)          |
+|ESP32-C61-WROOM-1  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61-wroom-1_wroom-1u_datasheet_en.html)                                |
+|ESP32-C61-WROOM-1U |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61-wroom-1_wroom-1u_datasheet_en.html)                                |
+|ESP32-S2-MINI-1    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
+|ESP32-S2-MINI-1U   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)   |
+|ESP32-S2-MINI-2    |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s2-mini-2_esp32-s2-mini-2u_datasheet_en.html)                          |
+|ESP32-S2-MINI-2U   |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s2-mini-2_esp32-s2-mini-2u_datasheet_en.html)                          |
+|ESP32-S2-SOLO      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf)      |
+|ESP32-S2-SOLO-2U   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf)   |
+|ESP32-S2-WROOM     |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf)    |
+|ESP32-S2-WROVER    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf)  |
+|ESP32-S3-MINI-1    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-S3-MINI-1U   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-S3-WROOM-1   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
+|ESP32-S3-WROOM-1U  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
+|ESP32-S3-WROOM-2   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)                   |
+|ESP32-S31-WROOM-1  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html)                                |
+|ESP32-S31-WROOM-1U |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-s31-wroom-1_wroom-1u_datasheet_en.html)                                |
+|ESP32-S31-WROOM-3  |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s31-wroom-3_datasheet_en.pdf)                  |
+|ESP32-H2-MINI-1    |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-H2-MINI-1U   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf)            |
+|ESP32-H2-WROOM-02C |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-h2-wroom-02c_datasheet_en.pdf)                                         |
+|ESP8684-WROOM-02C  |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
+|ESP8684-WROOM-01UC |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp8684-wroom-02c_datasheet_en.pdf)                                          |
+|ESP8685-WROOM-06   |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf)                   |
 
 ### Development Boards
 
