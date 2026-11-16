@@ -112,9 +112,12 @@ The following SoC are included in this library
 |ESP32-S3-DevKitC  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20220413.pdf) |
 |ESP32-S2-DevKitM  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/ESP32-S2-DevKitM-1_V1_Schematics.pdf)     |
 |ESP32-C3-DevKitM  |Yes     |Yes        |[Schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-C3-DEVKITM-1_V1_20200915A.pdf)  |
-|ESP32-C5-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/index.html)     |
+|ESP32-C5-DevKitC-1 v1.1|Yes     |Yes        |[User guide](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/user_guide_v1.1.html), [schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-C5-DevkitC-1_V1.1_20240621.pdf), [dimensions](https://dl.espressif.com/dl/schematics/dimension_esp32-c5-devkitc-1_v1.1_20240621.pdf) |
+|ESP32-C5-DevKitC-1 v1.2 (N8R8)|Yes     |Yes        |[User guide](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/user_guide.html), [schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-C5-DevkitC-1_V1.2_20250211.pdf), [dimensions](https://dl.espressif.com/dl/schematics/Dimension_esp32-c5-devkitc-1_v1.2_20250509.pdf) |
 |ESP32-C6-DevKitC-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/index.html)     |
 |ESP32-C6-DevKitM-1|Yes     |Yes        |[Schematic](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/index.html)     |
+
+The unversioned `ESP32-C5-DevKitC-1` symbol and footprint remain available as aliases for the v1.1 board to preserve compatibility with existing designs.
 
 ## Installation with KiCad PCM
 
