@@ -45,6 +45,7 @@ The following SoC are included in this library
 |ESP32-C3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)      |
 |ESP8685            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685_datasheet_en.pdf)       |
 |ESP32-C6           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf)      |
+|ESP32-C61          |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32-c61_datasheet_en.html)                             |
 |ESP32-H2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-h2_datasheet_en.pdf)      |
 |ESP8286            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)  |
 |ESP8285            |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf)    |
