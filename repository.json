@@ -8,13 +8,13 @@
     },
     "name": "Espressif KiCad Repository",
     "packages": {
-        "update_time_utc": "2025-02-27 00:00:00",
-        "update_timestamp": 1740614400,
+        "update_time_utc": "2026-11-16 16:42:51",
+        "update_timestamp": 1794847371,
         "url": "https://raw.githubusercontent.com/espressif/kicad-libraries/main/packages.json"
     },
     "resources": {
-        "update_time_utc": "2025-02-27 00:00:00",
-        "update_timestamp": 1740614400,
+        "update_time_utc": "2026-11-16 16:42:51",
+        "update_timestamp": 1794847371,
         "url": "https://raw.githubusercontent.com/espressif/kicad-libraries/main/resources.zip"
     }
 }
