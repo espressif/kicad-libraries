@@ -32,11 +32,13 @@ All footprints were designed according to the Recommended PCB Land Pattern secti
 
 The following SoC are included in this library
 
-**Please note**: The footprints in this table are only available when [the official KiCad library](https://gitlab.com/kicad/libraries/kicad-footprints) is installed as the symbols rely on its footprints.
+**Please note**: SoC symbols use footprints from either this library (`PCM_Espressif`) or the [official KiCad library](https://gitlab.com/kicad/libraries/kicad-footprints), as indicated by each symbol's default footprint.
 
 | SoC               | Symbol | Footprint | Resource                                                                                               |
 |:------------------|:------:|:---------:|:-------------------------------------------------------------------------------------------------------|
 |ESP32              |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)         |
+|ESP32-D0WD-V3      |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32_datasheet_en.html)                                |
+|ESP32-U4WDH        |Yes     |Yes        |[Datasheet](https://documentation.espressif.com/esp32_datasheet_en.html)                                |
 |ESP32-PICO-V3      |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf) |
 |ESP32-S2           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)      |
 |ESP32-S3           |Yes     |Yes        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)      |
